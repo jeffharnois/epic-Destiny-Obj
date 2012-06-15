@@ -30,7 +30,7 @@ object structure is currently:
 
 Examples
 --------
-"Wild Shots" of Shiradi Champion's object would look like this:
+"Wild Shots" of [Shiradi Champion](http://ddowiki.com/page/Shiradi_Champion)'s object would look like this:
 
 	 "1b": {"abil_name": "Wild shots", "required": "0", "prereq": "null", "ranks": "3", "AP": "1", "abil": {
 	     "1": "(Active Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 10d20 piercing damage",
