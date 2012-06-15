@@ -14,7 +14,7 @@ object structure is currently:
 	    }
 	  },
   
-"1a" is the position that it belong in the destiny graph, which treats the origin (0,0) as 1a, and and 0,1 as 1b.
+"1a" is the position that it belong in the destiny graph, which treats the origin (1,1) as 1a, and and 0,1 as 1b.
 
 ![image](http://jeffharnois.com/images/graph.gif)
 
