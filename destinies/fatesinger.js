@@ -54,7 +54,7 @@
       "3": ""
     }
   },
-  "3a": {"abil_name": "Siren's Song","required": "0", "prereq": "null", "type":"", "ranks": "3", "AP": "1", "abil": {
+  "3a": {"abil_name": "Siren\'s Song","required": "0", "prereq": "null", "type":"", "ranks": "3", "AP": "1", "abil": {
       "1": "", 
       "2": "", 
       "3": ""

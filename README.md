@@ -20,9 +20,11 @@ object structure is currently:
 
 "required" is how many points spent in the tree are required.
 
-"prereq" is the ID ("1a") that is required to take that ability ("null" if nothing is required).
+"prereq" is an object ({"req":"1a","tier":"1"}) that is required to take that ability ("null" if nothing is required), required ID and tier if there is something required.
 
 "ranks" is the total number of ranks in the ability.
+
+"passive" is either "true" or "false," and referrs to if it is an active ability or not.
 
 "AP" is how many action points each rank requires.
 
