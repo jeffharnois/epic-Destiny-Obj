@@ -7,7 +7,7 @@ Each destiny gets its own file, which will be used in the grunt-tpl task to crea
 
 object structure is currently:
 
-	  "1a": {"abil_name": "","required": "0", "prereq": "null", "ranks": "3", "AP": "1", "abil": {
+	  "1a": {"abil_name": "","required": "0", "prereq": "null", "passive":"true", "ranks": "3", "AP": "1", "abil": {
 	      "1": "", 
 	      "2": "", 
 	      "3": ""
@@ -34,9 +34,9 @@ Examples
 --------
 "Wild Shots" of [Shiradi Champion](http://ddowiki.com/page/Shiradi_Champion)'s object would look like this:
 
-	 "1b": {"abil_name": "Wild shots", "required": "0", "prereq": "null", "ranks": "3", "AP": "1", "abil": {
-	     "1": "(Active Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 10d20 piercing damage",
-	     "2": "(Active Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 15d20 piercing damage",
-	     "3": "(Active Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 20d20 piercing damage"
+	 "1b": {"abil_name": "Wild shots", "required": "0", "prereq": "null", "passive":"false", "ranks": "3", "AP": "1", "abil": {
+	     "1": "(Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 10d20 piercing damage",
+	     "2": "(Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 15d20 piercing damage",
+	     "3": "(Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 20d20 piercing damage"
 	   }
 	 },
