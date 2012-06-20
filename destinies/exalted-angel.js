@@ -116,5 +116,5 @@
   6e: {abil_name: "Wisdom/Charisma", required: "20", prereq: null, multi: true, passive:true, ranks: 1, AP: 2, "abil": {
         1: {1: "+1 Wisdom", 2: "+1 Charisma"}
       }
-    },
+  }
 };

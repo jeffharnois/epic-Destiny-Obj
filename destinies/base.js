@@ -166,5 +166,5 @@
   6e: {abil_name: "", required: 20, prereq: null, multi: true, passive: true, ranks: 1, AP: 2, abil: {
       1: {1: "", 2: ""}
     }
-  },
+  }
 };
