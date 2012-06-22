@@ -66,7 +66,7 @@
       "3": ""
     }
   },
-  "3d": null 
+  "3d": null,
   "3e": {"abil_name": "Dexterity or Wisdom", "required": 8, "prereq": null, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }

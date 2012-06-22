@@ -96,7 +96,7 @@
     }
   },
   "5a": {"abil_name": "Bound Fate", "required": 16, "prereq": null, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 4mins) A single target must make a Will save with a DC modified by the caster\s Charisma modifier. On a failed save, the target is bound briefly to the spot, and for one minute is also 6% more vulnerable to Sonic, Cold and Electric damage, and has a -6 Spell Resistance. In addition, the creature deals -4 damage on attacks. Instant cast.", 
+      "1": "(Cooldown: 4mins) A single target must make a Will save with a DC modified by the caster&rsquo;s Charisma modifier. On a failed save, the target is bound briefly to the spot, and for one minute is also 6% more vulnerable to Sonic, Cold and Electric damage, and has a -6 Spell Resistance. In addition, the creature deals -4 damage on attacks. Instant cast.", 
       "2": "(Cooldown: 4mins) A single target must make a Will save with a DC modified by the caster&rsquo;s Charisma modifier. On a failed save, the target is bound briefly to the spot, and for one minute is also 10% more vulnerable to Sonic, Cold and Electric damage, and has a -10 Spell Resistance. In addition, the creature deals -6 damage on attacks. Instant cast.",
       "3": "(Cooldown: 4mins) A single target must make a Will save with a DC modified by the caster&rsquo;s Charisma modifier. On a failed save, the target is bound briefly to the spot, and for one minute is also 15% more vulnerable to Sonic, Cold and Electric damage, and has a -15 Spell Resistance. In addition, the creature deals -8 damage on attacks. Instant cast."
     }

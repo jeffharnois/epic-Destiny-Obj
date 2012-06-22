@@ -81,7 +81,7 @@
   },
   "4c": {"abil_name": "Piercing Clarity", "required": 12, "prereq": null, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Your attacks bypass 5% of enemy fortification. Your attacks have ghost touch.", 
-      "2": "Your attacks bypass 10% of enemy fortification. Your attacks have ghost touch. On rank "2": your attacks bypass concealment as if you had true seeing. "
+      "2": "Your attacks bypass 10% of enemy fortification. Your attacks have ghost touch.  Your attacks bypass concealment as if you had true seeing. "
     }
   },
   "4d": {"abil_name": "Perfection of Mind", "required": 12, "prereq": null, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {

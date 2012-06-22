@@ -97,7 +97,7 @@
     }
   },
   "5c": {"abil_name": "Executioner&rsquo;s Strike/Shot", "required": 16, "prereq": null, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 30secs) Melee or ranged attack: Perform an attack with +1[W] damage, +1 critical threat range and +1 critical damage multiplier. On hit: if you have Shadow Charges, this attack has a chance to kill a living target instantly (fort save DC 14 + character level + dex modifier). Even on successful save target takes an additional 75 damage from this attack. The chance to occur is higher the more Shadow Charges you have. "
+      "1": "(Cooldown: 30secs) Melee or ranged attack: Perform an attack with +1[W] damage, +1 critical threat range and +1 critical damage multiplier. On hit: if you have Shadow Charges, this attack has a chance to kill a living target instantly (fort save DC 14 + character level + dex modifier). Even on successful save target takes an additional 75 damage from this attack. The chance to occur is higher the more Shadow Charges you have.",
       "2": "",
       "3": ""
     }

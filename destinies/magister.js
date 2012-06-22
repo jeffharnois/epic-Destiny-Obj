@@ -37,7 +37,7 @@
   },
   "2c": null,
   "2d": {"abil_name": "Spell School Specialist", "required": 4, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 3, "AP": 1, "abil": {
-      "1": {"1": "+1 Abjuration DC", "2": "+1 Conjuration DC", "3": "+1 Divination DC", "4": "+1 Enchantment DC", "5": "+1 Evocation DC", 6: "+1 Illusion DC", 7: "+1 Necromancy DC", 8: "+1 Transmutation DC" }, 
+      "1": {"1": "+1 Abjuration DC", "2": "+1 Conjuration DC", "3": "+1 Divination DC", "4": "+1 Enchantment DC", "5": "+1 Evocation DC", "6": "+1 Illusion DC", "7": "+1 Necromancy DC", "8": "+1 Transmutation DC" }, 
       "2": "+2 {{multi}} DC",
       "3": "+3 {{multi}} DC"
     }
