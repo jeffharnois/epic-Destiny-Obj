@@ -1,4 +1,6 @@
 {
+  "dID": "fury_of_the_wild",
+  "name": "Fury of the Wild",
   "1a": {"abil_name": "Tunnel Vision", "required": 0, "prereq": null, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "While raged melee attacks deal +1d8 extra damage, you gain +1 intimidate, +1 will saves. You lose 5AC and 10% fort.", 
       "2": "While raged melee attacks deal +2d8 extra damage, you gain +2 intimidate, +2 will saves. You lose 10AC and 15% fort.",

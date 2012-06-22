@@ -1,4 +1,6 @@
 {
+  "dID": "unyielding_sentinel",
+  "name": "Unyielding Sentienel",
   "1a": {"abil_name": "Bane of Undeath", "required": 0, "prereq": null, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "You gain the turn undead feat. While in Vigor of Battle stance, weapons you equip gain undead bane (+2 enhancement bonus and +2d6 damage against undead) "
     }

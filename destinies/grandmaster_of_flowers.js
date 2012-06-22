@@ -1,4 +1,6 @@
 {
+  "dID": "grandmaster_of_flowers",
+  "name": "Grandmaster of Flowers",
   "1a": {"abil_name": "Lilly Petal", "required": 0, "prereq": null, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 6secs) Project a bolt dealing 80-120 + 8-12 dmg per character level to a target. Cost: 10 Ki."
     }

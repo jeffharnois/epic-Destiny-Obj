@@ -1,4 +1,6 @@
 {
+  "dID": "legendary_dreadnought",
+  "name": "Legendary Dreadnought",
   "1a": {"abil_name": "Sundering swing", "required": 0, "prereq": null, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 1min) For next 9 seconds all attacks you make apply an improved sunder effect on hit.", 
       "2": "",
@@ -23,7 +25,7 @@
       "3": "(Cooldown: 30secs) Activate to gain a +45 action boost bonus to attack for 20 seconds."
     }
   },
-  "1e": {"abil_name": "Strength of Constitution", "required": 0, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "1e": {"abil_name": "Strength or Constitution", "required": 0, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
@@ -47,7 +49,7 @@
       "3": ""
     }
   },
-  "2e": {"abil_name": "Strength of Constitution", "required": 4, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "2e": {"abil_name": "Strength or Constitution", "required": 4, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
@@ -68,7 +70,7 @@
       "3": "(Cooldown: 30secs) +30% action boost attack speed bonus for 20 seconds."
     }
   }, 
-  "3e": {"abil_name": "Strength of Constitution", "required": 8, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "3e": {"abil_name": "Strength or Constitution", "required": 8, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
@@ -88,7 +90,7 @@
       "1": "(Cooldown: 12secs) Melee attack attack: On Hit: 100 sonic damage. On critical: Target is dazed for 6 seconds. On Vorpal: Target is stunned for 6 seconds. Requires an axe, hammer or pick to be equipped in your main hand."
     }
   },
-  "4e": {"abil_name": "Strength of Constitution", "required": 12, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "4e": {"abil_name": "Strength or Constitution", "required": 12, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
@@ -102,7 +104,7 @@
       "1": "+1 critical damage mulitplier on rolls of 19-20 "
     }
   },
-  "5e": {"abil_name": "Strength of Constitution", "required": 16, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "5e": {"abil_name": "Strength or Constitution", "required": 16, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
@@ -119,7 +121,7 @@
       "1": "When you have an axe equipped in your main hand, you gain an additional +1 Critical Damage Multiplier on rolls of 19-20."
     }
   },
-  "6e": {"abil_name": "Strength of Constitution", "required": 20, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "6e": {"abil_name": "Strength or Constitution", "required": 20, "prereq": null, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   }

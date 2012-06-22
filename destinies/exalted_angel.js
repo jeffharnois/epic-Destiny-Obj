@@ -1,4 +1,6 @@
 {
+  "dID": "exalted_angel",
+  "name": "Exalted Angel",
   "1a": {"abil_name": "Avenging Light ", "required": 0, "prereq": null, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 3secs) Deals 1d4+4 light damage + 1d4+4 per three character level to 1 target. Fortitude save (DC 10+ character level + charisma mod) for half"
     }

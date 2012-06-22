@@ -1,4 +1,6 @@
 {
+  "dID": "shiradi_champion",
+  "name": "Shiradi Champion",
   "1a": {"abil_name": "Stay Frosty","required": 0, "prereq": null, "multi": false, "passive": false, "ranks": 2, "AP": 1, "abil": {
       "1": "(Cooldown: 5secs) Shiradi ranged stance: Ranged and thrown attacks and offensive spells have an extra 7% chance to deal 3d10 extra cold damage and slow movement speed for 5 seconds. +3 listen and spot", 
       "2": ""

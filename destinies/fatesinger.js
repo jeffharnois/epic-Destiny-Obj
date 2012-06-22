@@ -1,4 +1,6 @@
 {
+  "dID": "fatesinger",
+  "name": "Fatesinger",
   "1a": {"abil_name": "O Fortuna", "required": 0, "prereq": null, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Inspire courage gives +1 fortitude and reflex saves", 
       "2": "Inspire courage gives +2 fortitude and reflex saves",

@@ -1,4 +1,6 @@
 {
+  "dID": "magister",
+  "name": "Magister",
   "1a": {"abil_name": "Sigil of Warding", "required": 0, "prereq": null, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants 1DR/- and 5 Physical Resistance Rating. Only one sigil active per caster.", 
       "2": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants 2DR/- and 10 Physical Resistance Rating. Only one sigil active per caster.",

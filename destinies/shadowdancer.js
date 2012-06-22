@@ -1,4 +1,6 @@
 {
+  "dID": "shadowdancer",
+  "name": "Shadowdancer",
   "1a": {"abil_name": "Stealthy", "required": 0, "prereq": null, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+2 Hide and move silently. +2 Assassinate DC.", 
       "2": "+4 Hide and move silently. +4 Assassinate DC.",

@@ -1,4 +1,6 @@
 {
+  "dID": "draconic_incarnation",
+  "name": "Draconic Incarnation",
   "1a": {"abil_name": "Energy Sheath", "required": 0, "prereq": null, "multi": "multi", "passive": false, "ranks": "3", "AP": 1, "abil": {
       "1": {
         "1": "(Cooldown: 1min) For 2 minutes gain 50% element absorption. Enemies that strike you take 1d3+10 fire damage and have a small chance to take 4d20+100 fire damage. Remove fire shield(hot/cold).", 
