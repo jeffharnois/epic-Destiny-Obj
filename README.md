@@ -7,7 +7,7 @@ Each destiny gets its own file, which will be used in the grunt-tpl task to crea
 
 object structure is currently:
 
-	  "1a": {"abil_name": "","required": "0", "prereq": "null", "passive":"true", "ranks": "3", "AP": "1", "abil": {
+	  "1a": {"abil_name": "","required": "0", "prereq": "null", "selected": 0, "multi": false, "passive":"true", "ranks": "3", "AP": "1", "abil": {
 	      "1": "", 
 	      "2": "", 
 	      "3": ""
@@ -18,13 +18,19 @@ object structure is currently:
 
 ![image](http://jeffharnois.com/images/graph.gif)
 
+"abil_name" is the name of the ability.
+
 "required" is how many points spent in the tree are required.
 
 "prereq" is an object ({"req":"1a","tier":"1"}) that is required to take that ability ("null" if nothing is required), required ID and tier if there is something required.
 
-"ranks" is the total number of ranks in the ability.
+"selected" is used by the UI to determine how many ranks have been taken by the user: this should always be "0".
 
-"passive" is either "true" or "false," and referrs to if it is an active ability or not.
+"multi" is used to determine if the ability is a multi enhancement or not (has multiple choices at the first tier).
+
+"passive" is either "true" or "false," and refers to if it is an active ability or not.
+
+"ranks" is the total number of ranks in the ability.
 
 "AP" is how many action points each rank requires.
 
@@ -34,9 +40,27 @@ Examples
 --------
 "Wild Shots" of [Shiradi Champion](http://ddowiki.com/page/Shiradi_Champion)'s object would look like this:
 
-	 "1b": {"abil_name": "Wild shots", "required": "0", "prereq": "null", "passive":"false", "ranks": "3", "AP": "1", "abil": {
-	     "1": "(Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 10d20 piercing damage",
-	     "2": "(Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 15d20 piercing damage",
-	     "3": "(Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 20d20 piercing damage"
-	   }
-	 },
+    "1b": {"abil_name": "Wild Shots", "required": 0, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+        "1": "(Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 10d20 piercing damage",
+        "2": "(Cooldown: 30secs) Toss daggers in a wide arc in front you, each dealing 15d20 piercing damage",
+        "3": "(Cooldown: 15secs) Toss daggers in a wide arc in front you, each dealing 20d20 piercing damage"
+      }
+    }
+
+"Spell School Specialist" of [Magister](http://ddowiki.com/page/Magister)'s object would look like this:
+
+    "2d": {"abil_name": "Spell School Specialist", "required": 4, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+        "1": {
+          "1": "+1 Abjuration DC if you have Spell Focus: Abjuration", 
+          "2": "+1 Conjuration DC if you have Spell Focus: Conjuration", 
+          "3": "+1 Divination DC if you have Spell Focus: Divination", 
+          "4": "+1 Enchantment DC if you have Spell Focus: Enchantment", 
+          "5": "+1 Evocation DC if you have Spell Focus: Evocation", 
+          "6": "+1 Illusion DC if you have Spell Focus: Illusion", 
+          "7": "+1 Necromancy DC if you have Spell Focus: Necromancy", 
+          "8": "+1 Transmutation DC if you have Spell Focus: Transmutation"
+        }, 
+        "2": "+2 Spell School DC",
+        "3": "+3 Spell School DC"
+      }
+    },
