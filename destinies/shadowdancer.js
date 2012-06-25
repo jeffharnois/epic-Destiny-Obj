@@ -112,15 +112,15 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Intelligence"}
     }
   },
-  "6a": {"abil_name": "Consume", "required": 20, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6a": {"abil_name": "Consume", "required": 20, "prereq": [{"req": "5a", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 2min) Spend a Shadow Charge to crate a field around you for 10 seconds. Every 2 seconds the aura causes one nearby corporal enemy to be devoured by its own shadow and die (save negates), or take 80-120 damage. You are free to perform other action while the aura is active."
     }
   },
-  "6b": {"abil_name": "Shadow Form", "required": 20, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6b": {"abil_name": "Shadow Form", "required": 20, "prereq": [{"req": "5b", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 1min) Spend a shadow charge to gain 25% incorporeality (and ignore incorporeal miss chance), float as if affected by featherfall, have bonuses to hide and move silently and deal strength damage on all melee and ranged attacks. You also take double damage from light effects."
     }
   },
-  "6c": {"abil_name": "Oncoming Darkness", "required": 20, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6c": {"abil_name": "Oncoming Darkness", "required": 20, "prereq": [{"req": "6b", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 4min) Each time an enemy affected by your Dark Shrouding mark dies, you gain 1 charge. When you have accumulated 20 of these charges, you can expend them to enchant your melee and ranged attacks with shadowy energy. You deal an extra 2d6 unholy damage with every strike, the effective range of your melee attacks increases dramatically, and your ranged attacks have a 30% chance to explode, dealing 10d6 unholy damage to all enemies in a large radius around your target."
     }
   },

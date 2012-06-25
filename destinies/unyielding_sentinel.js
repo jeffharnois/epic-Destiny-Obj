@@ -56,11 +56,11 @@
       "3": "While blocking, absorb 30% acid, cold, electric, fire, force, light and sonic damage"
     }
   },
-  "3b": {"abil_name": "Intolerant Blow", "required": 8, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "3b": {"abil_name": "Intolerant Blow", "required": 8, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 7secs) Melee attack: expand one Smite Evil: Deals +3[W] damage and nearby emenies hate you as if you hit them for 1000 damage each.  Requires one of: Fanaticism, Smite evil"
     }
   },
-  "3c": {"abil_name": "Healing Hands", "required": 8, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "3c": {"abil_name": "Healing Hands", "required": 8, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "You gain the Lay on Hands feat. You gain +25 positive spellpower."
     }
   },
@@ -75,7 +75,7 @@
     }
   },
   "4a": null,
-  "4b": {"abil_name": "Spark of Life", "required": 12, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "4b": {"abil_name": "Spark of Life", "required": 12, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "Your armor gains Deathblock, protecting you from death effects "
     }
   },

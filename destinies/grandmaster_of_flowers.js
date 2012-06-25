@@ -50,7 +50,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "3a": {"abil_name": "Orchid Blossom", "required": 8, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "3a": {"abil_name": "Orchid Blossom", "required": 8, "prereq": [{"req": "1a", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 12secs) Projects blast of ki. 80-120 +8-12 dmg per character level to enemies in area. Reflex save for half (DC 10 + Character level + 1/2 wis mod). Cost: 20 ki "
     }
   },
@@ -75,7 +75,7 @@
     }
   },
   "4a": null,
-  "4b": {"abil_name": "Standing with Stone", "required": 12, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks":23, "AP": 1, "abil": {
+  "4b": {"abil_name": "Standing with Stone", "required": 12, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Acid resistance 4, +5 max HP. If you have monk levels and are in earth stance, +5 Physical Resistance Rating.", 
       "2": "Acid resistance 4, +5 max HP. If you have monk levels and are in earth stance, +10 Physical Resistance Rating.",
       "3": "Acid resistance 4, +5 max HP. If you have monk levels and are in earth stance, +15 Physical Resistance Rating."
@@ -96,7 +96,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "5a": {"abil_name": "Drifting Lotus", "required": 16, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "5a": {"abil_name": "Drifting Lotus", "required": 16, "prereq": [{"req": "3a", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "80 - 120 + 8-12 dmg per character level AoE centered around you. Reflex save (DC 10 + character level + 1/2 wis mod) for half damage. Enemies who fail save are knocked down. Cost: 25ki."
     }
   },
@@ -117,7 +117,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "6a": {"abil_name": "A Scattering of Petals", "required": 20, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6a": {"abil_name": "A Scattering of Petals", "required": 20, "prereq": [{"req": "5a", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 1 min) Nearby enemies must make a fortitude save (DC 20 + character level + 1/2 wis mod) or become blinded. For the next 12 seconds, gain +25% dodge. Cost: 30 Ki."
     }
   },

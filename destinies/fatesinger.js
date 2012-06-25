@@ -81,11 +81,11 @@
       "3": "When siren&rsquo;s song expires, chord of disruption focuses your energy to a single disruptive point causing 7d100+900 disintegrating sonic damage. If save made effects are halved."
     }
   },
-  "4b": {"abil_name": "Echos of the Ancestors, Divine", "required": 12, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "4b": {"abil_name": "Echos of the Ancestors, Divine", "required": 12, "prereq": null, "selected": 0, "multi": "multi", "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "The songs of legend fill your soul. You are eternally inspired by the radiance of divinity. Gain a +1 Wisdom, a +15 to your maximum spell points, a +3 Jump, a +4 to Fortitude saves vs. Disease, and +20 Spell Power when casting Positive Energy spells.", "2": "Gain a +1 Wisdom and a +1 to all saving throws. Your Inspire Courage grants an additional +2 to saves vs. Fear. If you possess an Aura of Good, that grants an additional +2 to all saves vs. fear as well. If you possess Turn Undead, you gain +2 to your effective level for Turning Undead."}
     }
   },
-  "4c": { "abil_name": "Echos of the Ancestors, Martial", "required": 12, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "4c": { "abil_name": "Echos of the Ancestors, Martial", "required": 12, "prereq": null, "selected": 0, "multi": "multi", "passive": false, "ranks": 1, "AP": 2, "abil": {
     "1": {"1": "Gain a +1 Constitution, +10 to your maximum Health, +1 to the DC&rsquo;s of all combat Feats, a 2/- DR Bonus to blocking, +2 AC bonus to blocking, and a +1 Attack bonus.", "2": "Gain a +1 Wisdom, a +2 AC while Tumbling and a +1 to all saving throws. If you are centered, you gain a 5% bonus to your total AC. You may only activate this ability if you already have ki.", "3": "Gain a +1 Dexterity, a +2 to saving throws vs. Traps and a 1d6 Sneak Attack damage bonus. In addition, every time you are hit, you have a 5% chance of being affected by Lingering Shadows for 4 seconds. Lingering Shadows grants you displacement and a +4 to hit and +2 damage, and +15% Attack Speed, but is removed if you are damaged."}
     }
   },
@@ -108,7 +108,7 @@
       "2": "Inspire courage reduces your spell points cost by 5% and your and your companions SP cost by 5% and all players gain 4 concentration. You also gain 15 temporary spell points."
     }
   },
-  "5c": {"abil_name": "Masquerade", "required": 16, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
+  "5c": {"abil_name": "Masquerade", "required": 16, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
       "1": "Activate masquerade to switch your twist of fate at a rest shrine."
     }
   },
@@ -121,17 +121,15 @@
       "1": {"1": "+1 Charisma", "2": "+1 Strength"}
     }
   },
-  "6a": {"abil_name": "Grim Fate", "required": 20, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "6a": {"abil_name": "Grim Fate", "required": 20, "prereq": [{"req": "5a", "tier": 1}], "selected": 0, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Your bounds fate increase the target vulnerability to physical attacks by 5%. Grim fate may take effect if bound fate is resisted. Duration 30 seconds. ", 
       "2": "Your bounds fate increase the target vulnerability to physical attacks by 10%. Grim fate may take effect if bound fate is resisted. Duration 30 seconds. ",
       "3": "Your bounds fate increase the target vulnerability to physical attacks by 15%. Grim fate may take effect if bound fate is resisted. Duration 30 seconds. "
     }
   },
   "6b": null,
-  "6c": {"abil_name": "Turn of the Tide", "required": 20, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 10 mins) Expend a Song to activate, Turn of the Tide grants a +5 to hit, +40% damage, DR 15/-, a +4 Charisma, and deals +5d20 +150 Sonic damage per hit. (Sonic damage does not affect Bosses.). In addition, while under the effects of Turn of the Tide, you cannot fail a Will save an a roll of 1. Duration: 20 seconds.", 
-      "2": "",
-      "3": ""
+  "6c": {"abil_name": "Turn of the Tide", "required": 20, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+      "1": "(Cooldown: 10 mins) Expend a Song to activate, Turn of the Tide grants a +5 to hit, +40% damage, DR 15/-, a +4 Charisma, and deals +5d20 +150 Sonic damage per hit. (Sonic damage does not affect Bosses.). In addition, while under the effects of Turn of the Tide, you cannot fail a Will save an a roll of 1. Duration: 20 seconds."
     }
   },
   "6d": null,
