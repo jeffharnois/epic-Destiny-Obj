@@ -24,7 +24,7 @@
       "3": ""
     }
   },
-  "1e": {"abil_name": "Dexterity or Wisdom", "required": 0, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "1e": {"abil_name": "Dexterity or Wisdom", "required": 0, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
@@ -49,7 +49,7 @@
       "3": "Gain DR 7/Cold Iron and +15 Spell Power."
     }
   },
- "2e": {"abil_name": "Dexterity or Wisdom", "required": 4, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+ "2e": {"abil_name": "Dexterity or Wisdom", "required": 4, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
@@ -69,7 +69,7 @@
     }
   },
   "3d": null,
-  "3e": {"abil_name": "Dexterity or Wisdom", "required": 8, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "3e": {"abil_name": "Dexterity or Wisdom", "required": 8, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
@@ -94,7 +94,7 @@
       "3": ""
     }
   },
-  "4e": {"abil_name": "Dexterity or Wisdom", "required": 12, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "4e": {"abil_name": "Dexterity or Wisdom", "required": 12, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
@@ -115,7 +115,7 @@
       "3": ""
     }
   },
-  "5e": {"abil_name": "Dexterity or Wisdom", "required": 16, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "5e": {"abil_name": "Dexterity or Wisdom", "required": 16, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
@@ -129,7 +129,7 @@
     }
   }, 
   "6d": null,
-  "6e": {"abil_name": "Dexterity or Wisdom", "required": 20, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "6e": {"abil_name": "Dexterity or Wisdom", "required": 20, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   }

@@ -39,7 +39,7 @@
       "3": "+6 to Concentration, diplomacy and UMD and an 3 extra songs per rest."
     }
   },
-  "2c": {"abil_name": "Masked Ball", "required": 4, "prereq": [{"req": "1c", "tier": 1}], "selected": 0, "multi": false, "passive": "passive", "ranks": 2, "AP": 1, "abil": {
+  "2c": {"abil_name": "Masked Ball", "required": 4, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 2, "AP": 1, "abil": {
       "1": "Fascinate or dirge grants you and your friend +10 jump and tumble, +2 charisma.", 
       "2": "Fascinate or dirge grants you and your friend +20 jump and tumble, +2 charisma, and immunity to slippery surfaces."
     }
@@ -55,7 +55,7 @@
       "3": "(Cooldown: 40secs)Unbreakable mez on a single target and deals 2 constitution damage every 1 seconds. Duration 12 seconds."
     }
   },
-  "3b": {"abil_name": "Reign", "required": 8, "prereq": [{"req": "1b", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "3b": {"abil_name": "Reign", "required": 8, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "Spontaneous Song (expands a song but instant activation): You gain a +20 temporary Health. On a vorpal strike, you unleash a thunderclap for 7d20 Sonic and 7d20 Electrical damage. Duration: 180 seconds.", 
       "2": "Spontaneous Song (expands a song but instant activation): You gain a +40 temporary Health. On a vorpal strike, you unleash a thunderclap for 9d20 Sonic and 9d20 Electrical damage. Duration: 180 seconds.",
       "3": "Spontaneous Song (expands a song but instant activation): You gain a +60 temporary Health. On a vorpal strike, you unleash a thunderclap for 11d20 Sonic and 11d20 Electrical damage. Duration: 180 seconds."
@@ -65,7 +65,7 @@
       "1": {"1": "Gain a +1 Constitution, a 20 to your maximum spell points, a +1 Natural Armor and a +2 to your saves vs. Poison. You also gain an additional 5 Spell Power when casting Fire, Acid, Cold or Electricity spells.", "2": "Gain a +1 Intelligence, a +1 to Use Magic Device, a +2 Spell Penetration bonus to your spells, a +2 to the DC&rsquo;s of your offensive wands and +20 to your maximum Spell Points."}
     }
   },
-  "3d": {"abil_name": "Aria", "required": 8, "prereq": [{"req": "1d", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "3d": {"abil_name": "Aria", "required": 8, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "Spontaneous Song (expands a song but instant activation): You generate 10% less threat for spellcasting. In addition, you gain a 25 Spell Power bonus to your Sonic spells, and a 5 spell Spell Power bonus to your force, Positive and Negative spells. Duration equals 10 seconds * your perform skill.", 
       "2": "Spontaneous Song (expands a song but instant activation): You generate 20% less threat for spellcasting. In addition, you gain a 50 Spell Power bonus to your Sonic spells, and a 10 spell Spell Power bonus to your force, Positive and Negative spells. Duration equals 10 seconds * your perform skill.",
       "3": "Spontaneous Song (expands a song but instant activation): You generate 30% less threat for spellcasting. In addition, you gain a 75 Spell Power bonus to your Sonic spells, and a 15 spell Spell Power bonus to your force, Positive and Negative spells. Duration equals 10 seconds * your perform skill."

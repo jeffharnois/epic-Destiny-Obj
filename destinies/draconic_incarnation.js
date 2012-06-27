@@ -92,7 +92,7 @@
       "3": "+3 caster level and maximum caster level on spells of your dragon element"
     }
   },
-  "4d": {"abil_name": "Draconic Spell Augmentation", "required": 12, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": "3", "AP": 1, "abil": {
+  "4d": {"abil_name": "Draconic Spell Augmentation", "required": 12, "prereq": [{"req": "4c", "tier": 1}], "selected": 0, "multi": false, "passive": "passive", "ranks": "3", "AP": 1, "abil": {
       "1": "Adds special effect to spells of your heritage: [fire/cold/electric/acid] spells have a small chance to deal a blast of 3d6 extra light damage", 
       "2": "",
       "3": ""
@@ -107,7 +107,7 @@
       "1": "(Cooldown: 1min) Executes an abundant step which passes through enemies and deals 2d6 [fire/cold/electric/acid] damage per caster level to any enemy struck during the attack. Each enemy is also knockdown unless it succeeds on a fortitude save."
     }
   },
-  "5c": {"abil_name": "Dragon Breath", "required": 16, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
+  "5c": {"abil_name": "Dragon Breath", "required": 16, "prereq": [{"req": "4c", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "Cooldown: 1min) Cone that deals 60d6 [fire/cold/electric/acid] damage (reflex save for half). Can use 5 times per rest."
     }
   },
@@ -121,7 +121,7 @@
       "1": {"1": "+1 Intelligence", "2": "+1 Charisma"}
     }
   },
-  "6a": {"abil_name": "Energy Vortex", "required": 20, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6a": {"abil_name": "Energy Vortex", "required": 20, "prereq": [{"req": "4a", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 2mins) Intense elemental energy swirl around you dealing damage to enemy in the AoE. Follows you and deal 1d6 {{multi}} damage per caster level every 2 seconds for 16 seconds "
     }
   },

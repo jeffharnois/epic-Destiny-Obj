@@ -5,16 +5,16 @@
       "1": "(Cooldown: 3secs) Deals 1d4+4 light damage + 1d4+4 per three character level to 1 target. Fortitude save (DC 10+ character level + charisma mod) for half"
     }
   },
-  "1b": {"abil_name": "Endless Faith", "required": 0, "prereq": [{"req":"1c","tier":3},{"req":"1d","tier":3}], "selected": 0, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
-      "1": " Spell point pool increased by 4%. Echoes of power restore up to 18 sp.", 
-      "2": " Spell point pool increased by 7%. Echoes of power restore up to 24 sp.", 
-      "3": " Spell point pool increased by 10%. Echoes of power restore up to 30 sp."
-    }
-  },
-  "1c": {"abil_name": "Radiant Power", "required": 0, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "1b": {"abil_name": "Radiant Power", "required": 0, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+10 Light spellpower", 
       "2": "+20 Light spellpower", 
       "3": "+30 Light spellpower"
+    }
+  },
+  "1c": {"abil_name": "Endless Faith", "required": 0, "prereq": [{"req":"1b","tier":3},{"req":"1d","tier":3}], "selected": 0, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+      "1": " Spell point pool increased by 4%. Echoes of power restore up to 18 sp.", 
+      "2": " Spell point pool increased by 7%. Echoes of power restore up to 24 sp.", 
+      "3": " Spell point pool increased by 10%. Echoes of power restore up to 30 sp."
     }
   },
   "1d": {"abil_name": "Healing Power", "required": 0, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
@@ -23,7 +23,7 @@
       "3": "+30 Positive energy spellpower"
     }
   },
-  "1e": {"abil_name": "Wisdom or Charisma", "required": 0, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "1e": {"abil_name": "Wisdom or Charisma", "required": 0, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 1, "abil": {
       "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
     }
   },
@@ -39,7 +39,7 @@
   },
   "2c": null,
   "2d": null,
-  "2e": {"abil_name": "Wisdom or Charisma", "required": 4, "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "2e": {"abil_name": "Wisdom or Charisma", "required": 4, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 1, "abil": {
         "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
       }
     },
@@ -63,7 +63,7 @@
       "3": "10% healing amp"
     }
   },
-  "3e": {"abil_name": "Wisdom or Charisma", "required": "8", "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "3e": {"abil_name": "Wisdom or Charisma", "required": "8", "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 1, "abil": {
         "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
       }
     },
@@ -85,7 +85,7 @@
       "1": "When your Righteous Fervor stack is >=5, your light spells and smites have a 3% chance to stun opponents for 6 seconds"
     }
   },
-  "4e": {"abil_name": "Wisdom or Charisma", "required": "12", "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "4e": {"abil_name": "Wisdom or Charisma", "required": "12", "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
         "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
       }
     },
@@ -96,7 +96,7 @@
   "5b": null,
   "5c": null,
   "5d": null,
-  "5e": {"abil_name": "Wisdom or Charisma", "required": "16", "prereq": null, "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "5e": {"abil_name": "Wisdom or Charisma", "required": "16", "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
         "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
       }
     },
