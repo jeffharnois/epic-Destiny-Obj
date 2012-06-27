@@ -33,7 +33,7 @@
       "3": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants deathward to allies within radius and inflicts 3d6 light damage every 2 second to undeads. Only one sigil active per caster."
     }
   },
-  "2b": {"abil_name": "Fade Into the Weave", "required": 4, "prereq": [{"req": "1b", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "2b": {"abil_name": "Fade Into the Weave", "required": 4, "prereq": [{"req": "1b", "tier": 1}], "selected": 0, "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "(Cooldown: 2 minutes) Triggers a diplomacy effect and renders you invisible for 10 seconds (invisibility is not broken by casting or attacking)"
     }
   },

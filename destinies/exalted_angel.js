@@ -31,7 +31,7 @@
       "1": "(Cooldown: 15secs, 10sp) Target undead or evil outsider will explode when killed, dealing 10d100 light damage to other undead or evil outsiders near them"
     }
   },
-  "2b": {"abil_name": "Embrace the Light ", "required": 4, "prereq": "Radiant power 1", "selected": 0, "multi": false, "passive":"pasive", "ranks": 3, "AP": 1, "abil": {
+  "2b": {"abil_name": "Embrace the Light ", "required": 4, "prereq": [{"req":"1b","tier":1}], "selected": 0, "multi": false, "passive":"pasive", "ranks": 3, "AP": 1, "abil": {
       "1": "You take +10% less light damage", 
       "2": "You take +20% less light damage", 
       "3": "You take +30% less light damage"
@@ -43,7 +43,7 @@
         "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
       }
     },
-  "3a": {"abil_name": "Lay To Rest", "required": "8", "prereq": "Judgement 1", "selected": 0, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
+  "3a": {"abil_name": "Lay To Rest", "required": "8", "prereq": [{"req":"2a", "tier": 1}], "selected": 0, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 15secs, 10sp) Target undead or evil outsider under the effect of Judgement takes 10d100 light damage"
     }
   },
@@ -67,11 +67,11 @@
         "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
       }
     },
-  "4a": {"abil_name": "Judge The Many", "required": "12", "prereq": "Lay to rest 1", "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "4a": {"abil_name": "Judge The Many", "required": "12", "prereq": [{"req":"3a", "tier": 1}], "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
       "1": "Undead or evil outsiders judged gain &ldquo;Guilt by association&rdquo;. When target with guilt dies, any undead or outsiders caught in the area have 50% chance to receive judgement"
     }
   },
-  "4b": {"abil_name": "Rebuke Foe", "required": "12", "prereq": "Blood and radiance 1", "selected": 0, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
+  "4b": {"abil_name": "Rebuke Foe", "required": "12", "prereq": [{"req":"4c", "tier": 1}], "selected": 0, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 3secs) Only usable when Endless Ardor stack >=5. Target enemy tales 5% additional damage from physical and light damage for 30 seconds. Can stack up to 5 times, new stacks add 30 seconds to remaining duration. Endless Ardor stacks reset to zero."
     }
   },
@@ -81,7 +81,7 @@
       "3": ""
     }
   },
-  "4d": {"abil_name": "Excoriate", "required": "12", "prereq": "Blood and radiance 1", "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "4d": {"abil_name": "Excoriate", "required": "12", "prereq": [{"req":"4c", "tier": 1}], "selected": 0, "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "When your Righteous Fervor stack is >=5, your light spells and smites have a 3% chance to stun opponents for 6 seconds"
     }
   },
@@ -101,15 +101,15 @@
       }
     },
   "6a": null,
-  "6b": {"abil_name": "Divine Wrath", "required": "20", "prereq": "Rebuke foe 1", "selected": 0, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
+  "6b": {"abil_name": "Divine Wrath", "required": "20", "prereq": [{"req":"4b", "tier": 1}], "selected": 0, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 3secs, 30sp) Only usable when Endless Ardor stack is 10. Call down divine wrath on foes, dealing 2d6 light damage per character level, will save for half (DC 10 + character level + half charisma mod). Allies caught within blast are healed for 1d6 HP per character level. Resets Endless Ardor." 
     }
   },
-  "6c": {"abil_name": "Reborn In Light", "required": "20", "prereq": "Blood and Radiance 1", "selected": 0, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
+  "6c": {"abil_name": "Reborn In Light", "required": "20", "prereq": [{"req":"4c", "tier": 1}], "selected": 0, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 30mins) Counter increments with each Endless Ardor or Righteous Fervor Gain. When it reaches 100, ability becomes available. Epic Moment Transformation: You are healed to full health and activate Ascendance, Angelic Presence, and Astral Vibrance (even if they are currently on cooldown). For 2 minutes (or until you leave Angelic form), you are immune to light damage, gain 50% Incorporeality, and gain +100 Light and Healing Power.  This ability can be used while dead, raising you at full health and in addition to the above benefits, the cooldowns of Light and Positive Energy spells are reduced to 1/5th normal, all spells cost 50% spell points. All of your physical attacks gain On Hit: 100 Light damage and On Critical: Destroy evil undead or evil outsiders under 1000 hit points."
     }
   },
-  "6d": {"abil_name": "Strike Down", "required": "20", "prereq": "Excoriate 1", "selected": 0, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
+  "6d": {"abil_name": "Strike Down", "required": "20", "prereq": [{"req":"4d", "tier": 1}], "selected": 0, "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 15secs, 10sp) Only usable when Righteous Fervor stack is 10. Melee smite: gain twice your charisma bonus to attack and damage bonus of (level x3) + 7 against evil opponents. On hi: 500 light damage. On hit after damage: destroy undead or evil outsiders below 1000 HP. Resets Righteous Fervor."
     }
   },
