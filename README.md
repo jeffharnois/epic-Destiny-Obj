@@ -7,7 +7,7 @@ Each destiny gets its own file, which will be used in the grunt-tpl task to crea
 
 object structure is currently:
 
-	  "1a": {"abil_name": "","required": "0", "prereq": "null", "selected": 0, "multi": false, "passive":"true", "ranks": "3", "AP": "1", "abil": {
+	  "1a": {"abil_name": "","required": "0", "prereq": "null", "selected": 0, "img":"", "multi": false, "passive":"true", "ranks": "3", "AP": "1", "abil": {
 	      "1": "", 
 	      "2": "", 
 	      "3": ""
@@ -40,7 +40,7 @@ Examples
 --------
 "Wild Shots" of [Shiradi Champion](http://ddowiki.com/page/Shiradi_Champion)'s object would look like this:
 
-    "1b": {"abil_name": "Wild Shots", "required": 0, "prereq": null, "selected": 0, "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+    "1b": {"abil_name": "Wild Shots", "required": 0, "prereq": null, "selected": 0, "img":"", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
         "1": "(Cooldown: 45secs) Toss daggers in a wide arc in front you, each dealing 10d20 piercing damage",
         "2": "(Cooldown: 30secs) Toss daggers in a wide arc in front you, each dealing 15d20 piercing damage",
         "3": "(Cooldown: 15secs) Toss daggers in a wide arc in front you, each dealing 20d20 piercing damage"
@@ -49,7 +49,7 @@ Examples
 
 "Spell School Specialist" of [Magister](http://ddowiki.com/page/Magister)'s object would look like this:
 
-    "2d": {"abil_name": "Spell School Specialist", "required": 4, "prereq": null, "selected": 0, "multi": "multi", "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+    "2d": {"abil_name": "Spell School Specialist", "required": 4, "prereq": null, "selected": 0, "img":"", "multi": "multi", "passive": "passive", "ranks": 3, "AP": 1, "abil": {
         "1": {
           "1": "+1 Abjuration DC if you have Spell Focus: Abjuration", 
           "2": "+1 Conjuration DC if you have Spell Focus: Conjuration", 
