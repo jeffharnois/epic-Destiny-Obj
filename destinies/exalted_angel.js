@@ -23,7 +23,7 @@
       "3": "+30 Positive energy spellpower"
     }
   },
-  "1e": {"abil_name": "Wisdom or Charisma", "required": 0, "prereq": null, "selected": 0, "img":"wischa", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "1e": {"abil_name": "Wisdom or Charisma", "required": 0, "prereq": null, "selected": 0, "img":"wischa", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
     }
   },
@@ -39,7 +39,7 @@
   },
   "2c": null,
   "2d": null,
-  "2e": {"abil_name": "Wisdom or Charisma", "required": 4, "prereq": null, "selected": 0, "img":"wischa", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "2e": {"abil_name": "Wisdom or Charisma", "required": 4, "prereq": null, "selected": 0, "img":"wischa", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
         "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
       }
     },
@@ -63,7 +63,7 @@
       "3": "10% healing amp"
     }
   },
-  "3e": {"abil_name": "Wisdom or Charisma", "required": "8", "prereq": null, "selected": 0, "img":"wischa", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "3e": {"abil_name": "Wisdom or Charisma", "required": "8", "prereq": null, "selected": 0, "img":"wischa", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
         "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
       }
     },

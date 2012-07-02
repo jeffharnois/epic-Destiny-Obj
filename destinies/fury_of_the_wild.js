@@ -26,7 +26,7 @@
     }
   },
   "1e": {"abil_name": "Strength or Constitution", "required": 0, "prereq": null, "selected": 0, "img":"strcon", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
-      "1": {"1": "+1 Strength", "2": "+2 Strength"}
+      "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
   "2a": {"abil_name": "Injury", "required": 4, "prereq": null, "selected": 0, "img":"injury", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
@@ -54,7 +54,7 @@
     }
   },
   "2e": {"abil_name": "Strength or Constitution", "required": 4, "prereq": null, "selected": 0, "img":"strcon", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
-      "1": {"1": "+1 Strength", "2": "+2 Strength"}
+      "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
   "3a": {"abil_name": "Insult", "required": 8, "prereq": [{"req": "2a", "tier": 1}], "selected": 0, "img":"insult", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
@@ -75,7 +75,7 @@
     }
   }, 
   "3e": {"abil_name": "Strength or Constitution", "required": 8, "prereq": null, "selected": 0, "img":"strcon", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
-      "1": {"1": "+1 Strength", "2": "+2 Strength"}
+      "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
   "4a": {"abil_name": "Gird Against Demons", "required": 12, "prereq": null, "selected": 0, "img":"girdagainstdemons", "multi": false, "passive": "passive", "ranks": 2, "AP": 2, "abil": {
@@ -102,7 +102,7 @@
     }
   },
   "4e": {"abil_name": "Strength or Constitution", "required": 12, "prereq": null, "selected": 0, "img":"strcon", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
-      "1": {"1": "+1 Strength", "2": "+2 Strength"}
+      "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
   "5a": null,
@@ -116,7 +116,7 @@
   },
   "5d": null,
   "5e": {"abil_name": "Strength or Constitution", "required": 16, "prereq": null, "selected": 0, "img":"strcon", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
-      "1": {"1": "+1 Strength", "2": "+2 Strength"}
+      "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
   "6a": null,
@@ -127,7 +127,7 @@
   },
   "6d": null,
   "6e": {"abil_name": "Strength or Constitution", "required": 20, "prereq": null, "selected": 0, "img":"strcon", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
-      "1": {"1": "+1 Strength", "2": "+2 Strength"}
+      "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   }
 }
