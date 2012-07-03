@@ -1,6 +1,14 @@
 {
   "dID": "unyielding_sentinel",
   "name": "Unyielding Sentienel",
+  "autogrants": [
+      {"abil_name":"Vigor of Battle", "img":"vigorofbattle", "abil": "(0 required) +50 hp. Sentinel stance (Active Cooldown: 20secs): 10% healing amp and +50 hp. Enemies you hit gain healing touch for 3 seconds: grants 10 temporary HP to targets they attack.", "passive": false},
+      {"abil_name":"Unbreakable", "img":"unbreakable-taken", "abil": "(4 required) +5 sacred bonus to natural armor. You gain the diehard feat. Sentinel stance (Active Cooldown: 20secs): you gain DR 10/epic", "passive": false},
+      {"abil_name":"Stand Against the Tide", "img":"standagainstthetide-taken", "abil": "(8 required) +2 Attack. Sentinel stance (Active Cooldown: 20secs) : +1 melee damage, 20% threat generation, 5% fort, +1 reflex/fort/will saves. These bonuses increases while standing still, up to 4 times.", "passive": false},
+      {"abil_name":"Stalwart Guardian", "img":"stalwartguardian-taken", "abil": "(12 required) +50 hp. +50 additional hp while in Vigor of Battle stance.", "passive": "passive"},
+      {"abil_name":"Heed No Pain", "img":"shrugoff", "abil": "(16 required) +10 physical resistance. +20 additional physical resistance while in Unbreakable stance.", "passive": "passive"},
+      {"abil_name":"Steadfast", "img":"untouchable", "abil": "(20 required) +1damage. +1 bonus to reflex/fort/will saves. Can&rsquo;t be knocked down in Stand Against the Tide stance.", "passive": "passive"}
+  ],
   "1a": {"abil_name": "Bane of Undeath", "required": 0, "prereq": null, "selected": 0, "img":"baneofundeath", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "You gain the turn undead feat. While in Vigor of Battle stance, weapons you equip gain undead bane (+2 enhancement bonus and +2d6 damage against undead) "
     }

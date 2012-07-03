@@ -1,6 +1,14 @@
 {
   "dID": "legendary_dreadnought",
   "name": "Legendary Dreadnought",
+  "autogrants": [
+      {"abil_name":"Shrug Off Punishment", "img":"shrugoffpunishment", "abil": "(0 required) +10 Max Health per level of Legendary Dreadnought (including this one).", "passive": "passive"},
+      {"abil_name":"Action Hero", "img":"actionhero", "abil": "(4 required) Reduces the cooldowns of your Action Boost abilities by 33%.", "passive": "passive"},
+      {"abil_name":"Unstoppable", "img":"unstoppable", "abil": "(8 required) (Cooldown: 3 mins) Activate to remove all Crowd Control effects currently restraining you. This ability can be used while helpless.", "passive": false},
+      {"abil_name":"Action Boost: Unmovable", "img":"unmovable", "abil": "(12 required) (Cooldown: 2 mins 15 secs) Activate to gain a +20 Action Boost bonus to to Fortitude and Balance saves for 60 seconds. This ability can be used while helpless.", "passive": false},
+      {"abil_name":"Action Boost: Thick Skinned", "img":"thickskinned", "abil": "(16 required) (Cooldown: 3 mins) Activate to take 25% less damage from all sources for 30 seconds. This ability can be used while helpless.", "passive": false},
+      {"abil_name":"Combat Brute", "img":"combatbrute", "abil": "(20 required) You gain +1[W] damage with melee weapons and deal +50% damage to helpless opponents while any Action Boost is active.", "passive": "passive"}
+  ],
   "1a": {"abil_name": "Sundering swing", "required": 0, "prereq": null, "selected": 0, "img":"sunderingswings", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 1min) For next 9 seconds all attacks you make apply an improved sunder effect on hit.", 
       "2": "",

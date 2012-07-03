@@ -1,6 +1,14 @@
 {
   "dID": "magister",
   "name": "Magister",
+  "autogrants": [
+      {"abil_name":"Arcane Study I", "img":"arcanestudy_i", "abil": "(0 required) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
+      {"abil_name":"Arcane Study II", "img":"arcanestudy_ii", "abil": "(4 required) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
+      {"abil_name":"Arcane Study III", "img":"arcanestudy_iii", "abil": "(8 required) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
+      {"abil_name":"Arcane Study IV", "img":"arcanestudy_iv", "abil": "(12 required) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
+      {"abil_name":"Arcane Study V", "img":"arcanestudy_v", "abil": "(16 required) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
+      {"abil_name":"Arcane Spellsurge", "img":"arcanespellsurge-taken", "abil": "(20 required) (Cooldown: 4 mins) +5 to all spell DCs for 20 seconds.", "passive": false}
+  ],
   "1a": {"abil_name": "Sigil of Warding", "required": 0, "prereq": null, "selected": 0, "img":"sigil_spellwarding", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants 1DR/- and 5 Physical Resistance Rating. Only one sigil active per caster.", 
       "2": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants 2DR/- and 10 Physical Resistance Rating. Only one sigil active per caster.",

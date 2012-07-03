@@ -1,6 +1,14 @@
 {
   "dID": "exalted_angel",
   "name": "Exalted Angel",
+  "autogrants": [
+      {"abil_name":"Celestial Destiny", "img":"celestialdestiny", "abil": "(0 required) Gain 50 sp. Each additional level of Exalted Angel grants 50 sp and +1 to Cleric, Paladin and Favored Soul caster levels. The Renewal ability can now target yourself instead of only allies.", "passive": "passive"},
+      {"abil_name":"Angelic Presence(", "img":"angelicpresence-taken", "abil": "(4 required) (Cooldown: 10secs) Toggle: While above 50% Health you have a +2 sacred bonus to Charisma, and all enemies have a -2 penalty to attack rolls. This penalty counts as a Fear effect and stacks with Angel of Vengeance aura", "passive": false},
+      {"abil_name":"Astral Vibrance", "img":"angelicpresence-taken", "abil": "(8 required) (Cooldown: 10secs) Toggle: While you are above 50% Health enemies below 50% health take 1d4 light damage every 2 seconds, increasing by 1d4 every 2 seconds they remain in your aura (up to 20d4 per 2 seconds), and nearby allies below 50% health receive 1d4 positive healing every 2 seconds increasing by 1d4 every 2 seconds they remain in your aura (up to 20d4 per 2 seconds). Costs 1 sp per 2 second, increasing by 1 every 2 seconds when active", "passive": false},
+      {"abil_name":"Leap of Faith", "img":"leapoffaith-taken", "abil": "(12 required) (Cooldown: 3secs, 10 sp) Leap through air (like leap of faith). Costs 10 sp, recharges at a rate of 15 seconds in private areas and 3 seconds in public areas. If you already possess this ability, it now recharges at a rate of 1 every 12 seconds in private areas.", "passive": false},
+      {"abil_name":"Blessed Blades", "img":"blessedblades", "abil": "(16 required) Any weapon you wield or unarmed attacks are treated as having your alignment for damage reduction bypass purpose. (no effect if true neutral)", "passive": "passive"},
+      {"abil_name":"Ascendance", "img":"ascendance-taken", "abil": "(20 required) (Cooldown: 5mins) Transformation: Assume angelic form (type: outsider good, angel) . Any time you cast light damage spell, chance to gain temporary spell points. Any time you cast single target cure spells on a target, chance to give the target temporary HP. Any time you smite an enemy, chance to gain temporary HP. Your Angelic Presence and Astral Vibrance abilities do not have health requirements while in Angelic form. Astral Vibrance has no spell point drain while you are in Angelic form. Duration 2 minutes. Costs 50SP", "passive": false}
+  ],
   "1a": {"abil_name": "Avenging Light ", "required": 0, "prereq": null, "selected": 0, "img":"avenginglight", "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 3secs) Deals 1d4+4 light damage + 1d4+4 per three character level to 1 target. Fortitude save (DC 10+ character level + charisma mod) for half"
     }

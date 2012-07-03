@@ -1,6 +1,14 @@
 {
   "dID": "fury_of_the_wild",
   "name": "Fury of the Wild",
+  "autogrants": [
+      {"abil_name":"Adrenaline", "img":"adrenaline-taken", "abil": "(0 required) (Cooldown: 5secs) You gain +1 damage per level of Fury of the Wild. Gain 2 Adrenaline uses per raged until your next attack. Your next attack deals +300% damage and increases your critical threat range by 2. You are considered raged until your next attack.", "passive": false},
+      {"abil_name":"Brawn", "img":"epictoughness", "abil": "(4 required) Gain 50 maximum HP", "passive": "passive"},
+      {"abil_name":"Adrenaline", "img":"adrenaline-taken", "abil": "(8 required) (Cooldown: 5secs) You gain +1 damage per level of Fury of the Wild. Gain 2 Adrenaline uses per raged until your next attack. Your next attack deals +300% damage and increases your critical threat range by 4. You are considered raged until your next attack.", "passive": false},
+      {"abil_name":"Brawn", "img":"epictoughness", "abil": "(12 required) Gain 50 maximum HP", "passive": "passive"},
+      {"abil_name":"Adrenaline", "img":"adrenaline-taken", "abil": "(16 required) (Cooldown: 5secs) You gain +1 damage per level of Fury of the Wild. Gain 2 Adrenaline uses per raged until your next attack. Your next attack deals +300% damage and increases your critical threat range by 8. You are considered raged until your next attack.", "passive": false},
+      {"abil_name":"Adrenaline Overload", "img":"adrenalineoverload-taken", "abil": "(20 required) (Cooldown: 5secs) Gain +1 Adrenaline use per rest. By consuming 1 Adrenaline use, your next attack will deal +400% damage and increase your critical threat range by 16. You are considered raged until your next attack.", "passive": false}
+  ],
   "1a": {"abil_name": "Tunnel Vision", "required": 0, "prereq": null, "selected": 0, "img":"indomitablewill", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "While raged melee attacks deal +1d8 extra damage, you gain +1 intimidate, +1 will saves. You lose 5AC and 10% fort.", 
       "2": "While raged melee attacks deal +2d8 extra damage, you gain +2 intimidate, +2 will saves. You lose 10AC and 15% fort.",

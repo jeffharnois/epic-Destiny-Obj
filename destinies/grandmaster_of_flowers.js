@@ -1,6 +1,14 @@
 {
   "dID": "grandmaster_of_flowers",
   "name": "Grandmaster of Flowers",
+  "autogrants": [
+      {"abil_name":"Inner Focus", "img":"innerfocus-taken", "abil": "(0 required) (Cooldown: 5 mins) Instantly restore 25-125 Ki. (Passive): You gain +10 maximum ki and +1 stacking spell resistance, and an additional +10 maximum ki and +1 stacking spell resistance for each level of Grandmaster of Flowers you have, to a maximum of +60ki and +6 SR)", "passive": false},
+      {"abil_name":"Centered Mind", "img":"slipperymind", "abil": "(4 required) Grants slippery mind as a bonus feat, allowing an extra saving throw versus enchantments. Also gain +1 to the DC of your tactical feats", "passive": "passive"},
+      {"abil_name":"Wholeness of Spirit", "img":"innerfocus-taken", "abil": "(8 required) (Cooldown: 5 minutes) Casts a heal spell on you: heal you, cures all ability damage, negative levels and other adverse conditions affecting you. Cost: 30ki", "passive": false},
+      {"abil_name":"The Abiding Path", "img":"immunitytoslipperysurfaces", "abil": "(12 required) Immunity to slippery surfaces. Gain +1 to the DC of your tactical feats", "passive": "passive"},
+      {"abil_name":"Ubiquity", "img":"ubiquity", "abil": "(16 required) Tumble allows you to pass through enemies", "passive": "passive"},
+      {"abil_name":"Balance in All Things", "img":"immunitytoknockdown", "abil": "(20 required) Immunity to most knockdowns. +1 passive ki regeneration and +1 to the DC of your tactical feats", "passive": "passive"}
+  ],
   "1a": {"abil_name": "Lily Petal", "required": 0, "prereq": null, "selected": 0, "img":"kiprojection", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 6secs) Project a bolt dealing 80-120 + 8-12 dmg per character level to a target. Cost: 10 Ki."
     }
@@ -81,7 +89,7 @@
       "3": "Acid resistance 4, +5 max HP. If you have monk levels and are in earth stance, +15 Physical Resistance Rating."
     }
   },
-  "4c": {"abil_name": "Piercing Clarity", "required": 12, "prereq": null, "selected": 0, "img":"piercingclarity", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "4c": {"abil_name": "Piercing Clarity", "required": 12, "prereq": null, "selected": 0, "img":"piercingclarity", "multi": false, "passive": "passive", "ranks": 2, "AP": 1, "abil": {
       "1": "Your attacks bypass 5% of enemy fortification. Your attacks have ghost touch.", 
       "2": "Your attacks bypass 10% of enemy fortification. Your attacks have ghost touch.  Your attacks bypass concealment as if you had true seeing. "
     }
