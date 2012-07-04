@@ -2,12 +2,12 @@
   "dID": "base_base",
   "name": "Base Base",
   "autogrants": [
-      {"abil_name":"", "img":"", "abil": "(0 required)", "passive": false},
-      {"abil_name":"", "img":"", "abil": "(4 required)", "passive": false},
-      {"abil_name":"", "img":"", "abil": "(8 required)", "passive": false},
-      {"abil_name":"", "img":"", "abil": "(12 required)", "passive": false},
-      {"abil_name":"", "img":"", "abil": "(16 required)", "passive": false},
-      {"abil_name":"", "img":"", "abil": "(20 required)", "passive": false}
+      {"abil_name":"", "img":"", "abil": "", "passive": false},
+      {"abil_name":"", "img":"", "abil": "(level 1)", "passive": false},
+      {"abil_name":"", "img":"", "abil": "(level 2)", "passive": false},
+      {"abil_name":"", "img":"", "abil": "(level 3)", "passive": false},
+      {"abil_name":"", "img":"", "abil": "(level 4)", "passive": false},
+      {"abil_name":"", "img":"", "abil": "(level 5)", "passive": false}
   ],
   "1a": {"abil_name": "", "required": 0, "prereq": null, "selected": 0, "img":"", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "", 

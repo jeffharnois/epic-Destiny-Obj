@@ -2,12 +2,12 @@
   "dID": "shiradi_champion",
   "name": "Shiradi Champion",
   "autogrants": [
-      {"abil_name":"Fey Favor", "img":"feyfavor-taken", "abil": "(0 required) You gain 100 SP and proficiency with longbows and shortbows. +1 Druid and Ranger caster level per level of Shiradi Champion. Each time you Vorpal with ranged and thrown attacks you gain Fey Favor. You have 7% chance to gain fey favor each time you cast an offensive spell. Favor of the fey: +1 Luck bonus to Ranged Attacks and +1 diplomacy. This stacks up to 10 times.", "passive": "passve"},
-      {"abil_name":"Fey Visions", "img":"feyvisions-taken", "abil": "(4 required) +1 ranged damage, +5 spellpower, +5 search. Automatically detect secret doors", "passive": "passve"},
-      {"abil_name":"Favorable", "img":"favorablewinds", "abil": "(8 required) +1 Attack. Ranged and thrown attacks and offensive spells have 7% chance to deal 5d10 additional sonic damage", "passive": "passve"},
-      {"abil_name":"Sixth Sense", "img":"sixthsense", "abil": "(12 required) +1 ranged damage, +5 spellpower, +5 listen. You bypass 20% dodge and have ghost touch", "passive": "passve"},
-      {"abil_name":"Favorable Wind", "img":"favorablewinds", "abil": "(16 required) +1 attack. Upgrade Favorable Winds to 7% to deal 10d10 sonic damage.", "passive": "passve"},
-      {"abil_name":"Fey Power", "img":"feypower-taken", "abil": "(20 required) Ranged and thrown attacks and offensive spells have 7% chance to deal 2d100 extra force damage", "passive": "passve"}
+      {"abil_name":"Fey Favor", "img":"feyfavor-taken", "abil": "You gain 100 SP and proficiency with longbows and shortbows. +1 Druid and Ranger caster level per level of Shiradi Champion. Each time you Vorpal with ranged and thrown attacks you gain Fey Favor. You have 7% chance to gain fey favor each time you cast an offensive spell. Favor of the fey: +1 Luck bonus to Ranged Attacks and +1 diplomacy. This stacks up to 10 times.", "passive": "passve"},
+      {"abil_name":"Fey Visions", "img":"feyvisions-taken", "abil": "(level 1) +1 ranged damage, +5 spellpower, +5 search. Automatically detect secret doors", "passive": "passve"},
+      {"abil_name":"Favorable", "img":"favorablewinds", "abil": "(level 2) +1 Attack. Ranged and thrown attacks and offensive spells have 7% chance to deal 5d10 additional sonic damage", "passive": "passve"},
+      {"abil_name":"Sixth Sense", "img":"sixthsense", "abil": "(level 3) +1 ranged damage, +5 spellpower, +5 listen. You bypass 20% dodge and have ghost touch", "passive": "passve"},
+      {"abil_name":"Favorable Wind", "img":"favorablewinds", "abil": "(level 4) +1 attack. Upgrade Favorable Winds to 7% to deal 10d10 sonic damage.", "passive": "passve"},
+      {"abil_name":"Fey Power", "img":"feypower-taken", "abil": "(level 5) Ranged and thrown attacks and offensive spells have 7% chance to deal 2d100 extra force damage", "passive": "passve"}
   ],
   "1a": {"abil_name": "Stay Frosty","required": 0, "prereq": null, "selected": 0, "img":"stayfrosty", "multi": false, "passive": false, "ranks": 2, "AP": 1, "abil": {
       "1": "(Cooldown: 5secs) Shiradi ranged stance: Ranged and thrown attacks and offensive spells have an extra 7% chance to deal 3d10 extra cold damage and slow movement speed for 5 seconds. +3 listen and spot", 
@@ -51,7 +51,7 @@
       "3": "Healing spring additionally grants DR 6/Cold iron and stacking 6 spellpower to nearby allies. 1 extra use of healing spring per day"
     }
   },
-  "2d": {"abil_name": "Fey Form", "required": 4, "prereq": [{"req":"2c","tier": 1}], "selected": 0, "img":"feyform", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "2d": {"abil_name": "Fey Form", "required": 4, "prereq": null, "selected": 0, "img":"feyform", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Gain DR 3/Cold Iron and +5 Spell Power.",
       "2": "Gain DR 5/Cold Iron and +10 Spell Power.",
       "3": "Gain DR 7/Cold Iron and +15 Spell Power."

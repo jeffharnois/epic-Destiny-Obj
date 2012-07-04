@@ -2,14 +2,14 @@
   "dID": "grandmaster_of_flowers",
   "name": "Grandmaster of Flowers",
   "autogrants": [
-      {"abil_name":"Inner Focus", "img":"innerfocus-taken", "abil": "(0 required) (Cooldown: 5 mins) Instantly restore 25-125 Ki. (Passive): You gain +10 maximum ki and +1 stacking spell resistance, and an additional +10 maximum ki and +1 stacking spell resistance for each level of Grandmaster of Flowers you have, to a maximum of +60ki and +6 SR)", "passive": false},
-      {"abil_name":"Centered Mind", "img":"slipperymind", "abil": "(4 required) Grants slippery mind as a bonus feat, allowing an extra saving throw versus enchantments. Also gain +1 to the DC of your tactical feats", "passive": "passive"},
-      {"abil_name":"Wholeness of Spirit", "img":"innerfocus-taken", "abil": "(8 required) (Cooldown: 5 minutes) Casts a heal spell on you: heal you, cures all ability damage, negative levels and other adverse conditions affecting you. Cost: 30ki", "passive": false},
-      {"abil_name":"The Abiding Path", "img":"immunitytoslipperysurfaces", "abil": "(12 required) Immunity to slippery surfaces. Gain +1 to the DC of your tactical feats", "passive": "passive"},
-      {"abil_name":"Ubiquity", "img":"ubiquity", "abil": "(16 required) Tumble allows you to pass through enemies", "passive": "passive"},
-      {"abil_name":"Balance in All Things", "img":"immunitytoknockdown", "abil": "(20 required) Immunity to most knockdowns. +1 passive ki regeneration and +1 to the DC of your tactical feats", "passive": "passive"}
+      {"abil_name":"Inner Focus", "img":"innerfocus-taken", "abil": "(Cooldown: 5 mins) Instantly restore 25-125 Ki. (Passive): You gain +10 maximum ki and +1 stacking spell resistance, and an additional +10 maximum ki and +1 stacking spell resistance for each level of Grandmaster of Flowers you have, to a maximum of +60ki and +6 SR)", "passive": false},
+      {"abil_name":"Centered Mind", "img":"slipperymind", "abil": "(level 1) Grants slippery mind as a bonus feat, allowing an extra saving throw versus enchantments. Also gain +1 to the DC of your tactical feats", "passive": "passive"},
+      {"abil_name":"Wholeness of Spirit", "img":"innerfocus-taken", "abil": "(level 2) (Cooldown: 5 minutes) Casts a heal spell on you: heal you, cures all ability damage, negative levels and other adverse conditions affecting you. Cost: 30ki", "passive": false},
+      {"abil_name":"The Abiding Path", "img":"immunitytoslipperysurfaces", "abil": "(level 3) Immunity to slippery surfaces. Gain +1 to the DC of your tactical feats", "passive": "passive"},
+      {"abil_name":"Ubiquity", "img":"ubiquity", "abil": "(level 4) Tumble allows you to pass through enemies", "passive": "passive"},
+      {"abil_name":"Balance in All Things", "img":"immunitytoknockdown", "abil": "(level 5) Immunity to most knockdowns. +1 passive ki regeneration and +1 to the DC of your tactical feats", "passive": "passive"}
   ],
-  "1a": {"abil_name": "Lily Petal", "required": 0, "prereq": null, "selected": 0, "img":"kiprojection", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "1a": {"abil_name": "Lily Petal", "required": 0, "prereq": null, "selected": 0, "img":"kiprojection", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "(Cooldown: 6secs) Project a bolt dealing 80-120 + 8-12 dmg per character level to a target. Cost: 10 Ki."
     }
   },
@@ -58,7 +58,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "3a": {"abil_name": "Orchid Blossom", "required": 8, "prereq": [{"req": "1a", "tier": 1}], "selected": 0, "img":"kiblast", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "3a": {"abil_name": "Orchid Blossom", "required": 8, "prereq": [{"req": "1a", "tier": 1}], "selected": 0, "img":"kiblast", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "(Cooldown: 12secs) Projects blast of ki. 80-120 +8-12 dmg per character level to enemies in area. Reflex save for half (DC 10 + Character level + 1/2 wis mod). Cost: 20 ki "
     }
   },
@@ -104,7 +104,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "5a": {"abil_name": "Drifting Lotus", "required": 16, "prereq": [{"req": "3a", "tier": 1}], "selected": 0, "img":"kiburst", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "5a": {"abil_name": "Drifting Lotus", "required": 16, "prereq": [{"req": "3a", "tier": 1}], "selected": 0, "img":"kiburst", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "80 - 120 + 8-12 dmg per character level AoE centered around you. Reflex save (DC 10 + character level + 1/2 wis mod) for half damage. Enemies who fail save are knocked down. Cost: 25ki."
     }
   },

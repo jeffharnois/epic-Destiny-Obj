@@ -2,12 +2,12 @@
   "dID": "shadowdancer",
   "name": "Shadowdancer",
   "autogrants": [
-      {"abil_name":"Shadow Training I", "img":"shadowtraining_i", "abil": "(0 required) +1 sneak die for each level of Shadowdancer", "passive": "passive"},
-      {"abil_name":"Shadow Training II", "img":"fullmovesneak", "abil": "(4 required) (Cooldown: 5mins) activate this ability to gain temporary full movement and use of jump when stealthed for 30 seconds.", "passive": false},
-      {"abil_name":"Shadow Training III", "img":"", "abil": "(8 required) (Cooldown: 2secs) Toggle: generate 20% less melee and ranged threat.", "passive": false},
-      {"abil_name":"Shadow Training IV", "img":"shadowwalk-taken", "abil": "(12 required) (Cooldown: 1min) activate this ability to use shadow walk up to 5 times per rest. Also, while using weapons that qualify for weapon finesse, you gain 3% profane bonus to your chance to doublestrike. This doublestrike bonus applies to attacks made by a dagger, handaxe, kama, kukri, light hammer, light mace, light pick, rapier, shortsword, sickle, or when unarmed or in druid animal form.", "passive": false},
-      {"abil_name":"Shadow Training V", "img":"dimensiondoor-taken", "abil": "(16 required) (Cooldown: 1min) activate this ability to use Dimension Door 5 times per rest. The cooldown for Shadow Training II ability is reduced to 3 minutes.", "passive": false},
-      {"abil_name":"Dark Elusion", "img":"darkelusion-taken", "abil": "(20 required) You now have evasion. In addition, when you roll a natural 20 on a melee or ranged attack, you envelop the target in shadow, granting it 5% vulnerability to physical damage and removing its immunity to sneak attack for a short duration, if applicable.", "passive": "passive"}
+      {"abil_name":"Shadow Training I", "img":"shadowtraining_i", "abil": "+1 sneak die for each level of Shadowdancer", "passive": "passive"},
+      {"abil_name":"Shadow Training II", "img":"fullmovesneak", "abil": "(level 1) (Cooldown: 5mins) activate this ability to gain temporary full movement and use of jump when stealthed for 30 seconds.", "passive": false},
+      {"abil_name":"Shadow Training III", "img":"", "abil": "(level 2) (Cooldown: 2secs) Toggle: generate 20% less melee and ranged threat.", "passive": false},
+      {"abil_name":"Shadow Training IV", "img":"shadowwalk-taken", "abil": "(level 3) (Cooldown: 1min) activate this ability to use shadow walk up to 5 times per rest. Also, while using weapons that qualify for weapon finesse, you gain 3% profane bonus to your chance to doublestrike. This doublestrike bonus applies to attacks made by a dagger, handaxe, kama, kukri, light hammer, light mace, light pick, rapier, shortsword, sickle, or when unarmed or in druid animal form.", "passive": false},
+      {"abil_name":"Shadow Training V", "img":"dimensiondoor-taken", "abil": "(level 4) (Cooldown: 1min) activate this ability to use Dimension Door 5 times per rest. The cooldown for Shadow Training II ability is reduced to 3 minutes.", "passive": false},
+      {"abil_name":"Dark Elusion", "img":"darkelusion-taken", "abil": "(level 5) You now have evasion. In addition, when you roll a natural 20 on a melee or ranged attack, you envelop the target in shadow, granting it 5% vulnerability to physical damage and removing its immunity to sneak attack for a short duration, if applicable.", "passive": "passive"}
   ],
   "1a": {"abil_name": "Stealthy", "required": 0, "prereq": null, "selected": 0, "img":"stealthy", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+2 Hide and move silently. +2 Assassinate DC.", 

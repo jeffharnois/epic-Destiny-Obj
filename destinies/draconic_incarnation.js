@@ -2,12 +2,12 @@
   "dID": "draconic_incarnation",
   "name": "Draconic Incarnation",
   "autogrants": [
-      {"abil_name":"Draconic Bloodline I", "img":"bloodline", "abil": "(0 required) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
-      {"abil_name":"Draconic Bloodline II", "img":"bloodline", "abil": "(4 required) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
-      {"abil_name":"Draconic Bloodline III", "img":"bloodline", "abil": "(8 required) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
-      {"abil_name":"Draconic Bloodline IV", "img":"bloodline", "abil": "(12 required) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
-      {"abil_name":"Draconic Bloodline V", "img":"bloodline", "abil": "(16 required) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
-      {"abil_name":"Draconic Fury", "img":"fury", "abil": "(20 required) (Cooldown: 4 mins) +20% Spell power for 20 seconds", "passive": false}
+      {"abil_name":"Draconic Bloodline I", "img":"bloodline", "abil": "+50 SP +1 caster level to all arcane spell", "passive": "passive"},
+      {"abil_name":"Draconic Bloodline II", "img":"bloodline", "abil": "(level 1) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
+      {"abil_name":"Draconic Bloodline III", "img":"bloodline", "abil": "(level 2) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
+      {"abil_name":"Draconic Bloodline IV", "img":"bloodline", "abil": "(level 3) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
+      {"abil_name":"Draconic Bloodline V", "img":"bloodline", "abil": "(level 4) +50 SP +1 caster level to all arcane spell", "passive": "passive"},
+      {"abil_name":"Draconic Fury", "img":"fury", "abil": "(level 5) (Cooldown: 4 mins) +20% Spell power for 20 seconds", "passive": false}
   ],
   "1a": {"abil_name": "Energy Sheath", "required": 0, "prereq": null, "selected": 0, "img":"energysheath_fire", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 1min) For 2 minutes gain 50% element absorption. Enemies that strike you take 1d3+10 [fire/cold/electric/acid] damage and have a small chance to take 4d20+100 [fire/cold/electric/acid] damage. Remove fire shield(hot/cold).",
