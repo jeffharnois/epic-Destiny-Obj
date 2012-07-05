@@ -29,8 +29,8 @@
   },
   "1d": {"abil_name": "Fast Healing", "required": 0, "prereq": null, "selected": 0, "img":"fasthealing", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "You heal 2d20HP each minute using positive energy.", 
-      "2": "",
-      "3": ""
+      "2": "You heal 4d20HP each minute using positive energy.",
+      "3": "You heal 6d20HP each minute using positive energy."
     }
   },
   "1e": {"abil_name": "Strength or Constitution", "required": 0, "prereq": null, "selected": 0, "img":"strcon", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
