@@ -47,7 +47,7 @@
   },
   "2c": null,
   "2d": {"abil_name": "Spell School Specialist", "required": 4, "prereq": null, "selected": 0, "img":"specialist_school", "multi": "multi", "passive": "passive", "ranks": 3, "AP": 1, "abil": {
-      "1": {"1": "+1 Abjuration DC if you have Spell Focus: Abjuration", "2": "+1 Conjuration DC if you have Spell Focus: Conjuration", "3": "+1 Divination DC if you have Spell Focus: Divination", "4": "+1 Enchantment DC if you have Spell Focus: Enchantment", "5": "+1 Evocation DC if you have Spell Focus: Evocation", "6": "+1 Illusion DC if you have Spell Focus: Illusion", "7": "+1 Necromancy DC if you have Spell Focus: Necromancy", "8": "+1 Transmutation DC if you have Spell Focus: Transmutation"}, 
+      "1": {"1": "+1 Abjuration DC if you have Spell Focus: Abjuration", "2": "+1 Conjuration DC if you have Spell Focus: Conjuration", "3": "+1 Enchantment DC if you have Spell Focus: Enchantment", "4": "+1 Evocation DC if you have Spell Focus: Evocation", "5": "+1 Illusion DC if you have Spell Focus: Illusion", "6": "+1 Necromancy DC if you have Spell Focus: Necromancy", "7": "+1 Transmutation DC if you have Spell Focus: Transmutation"}, 
       "2": "+2 Spell School DC",
       "3": "+3 Spell School DC"
     }
