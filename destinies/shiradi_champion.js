@@ -26,7 +26,7 @@
       "3": "(Cooldown: 30secs) Nearby allies heal 1d100 positive energy every 30 seconds for five minutes. Usable once per day"
     }
   },
-  "1d": {"abil_name": "Illusion of Well Being", "required": 0, "prereq": [{"req": "1c", "tier": 1}], "selected": 0, "img":"illusionofwellbeing", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "1d": {"abil_name": "Illusion of Well Being", "required": 0, "prereq": "1c", "selected": 0, "img":"illusionofwellbeing", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Healing spring additionally grants 10 temporary HP when it heals you for at least one HP. 1 extra use of healing spring per day",
       "2": "",
       "3": ""
@@ -45,7 +45,7 @@
       "2": "(Cooldown: 20secs) Ranged attack: If enemy is not moving, enemy takes +10d20 pierce damage and is pinned in place for a few seconds on a failed DC25 fortitude save."
     }
   },
-  "2c": {"abil_name": "Fey Spring", "required": 4, "prereq": [{"req":"1c","tier": 1}], "selected": 0, "img":"feyspring", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "2c": {"abil_name": "Fey Spring", "required": 4, "prereq": "1c,2d", "selected": 0, "img":"feyspring", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Healing spring additionally grants DR 2/Cold iron and stacking 2 spellpower to nearby allies. 1 extra use of healing spring per day",
       "2": "Healing spring additionally grants DR 4/Cold iron and stacking 4 spellpower to nearby allies. 1 extra use of healing spring per day",
       "3": "Healing spring additionally grants DR 6/Cold iron and stacking 6 spellpower to nearby allies. 1 extra use of healing spring per day"
@@ -61,7 +61,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "3a": {"abil_name": "Rainbow", "required": 8, "prereq": [{"req":"2a","tier": 1}], "selected": 0, "img":"rainbow", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "3a": {"abil_name": "Rainbow", "required": 8, "prereq": "2a", "selected": 0, "img":"rainbow", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "While in prism stance, your ranged and thrown attacks and offensive spells have a 7% chance to deal 1d100 extra damage of a random type"
     }
   },
@@ -81,7 +81,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "4a": {"abil_name": "Double Rainbow", "required": 12, "prereq": [{"req":"3a","tier":1}], "selected": 0, "img":"doublerainbow", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "4a": {"abil_name": "Double Rainbow", "required": 12, "prereq": "3a", "selected": 0, "img":"doublerainbow", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "While in prism stance; your ranged and thrown attacks and offensive spells have a 7% chance to inflict a random effect on your target"
     }
   },
@@ -97,7 +97,7 @@
       "3": "+3% dodge, +? hide. After standing still for 3 seconds you gain +3% dodge, +? hide"
     }
   },
-  "4d": {"abil_name": "Elemental Absorption", "required": 12, "prereq": [{"req":"2d","tier":1}], "selected": 0, "img":"elementalabsorption", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "4d": {"abil_name": "Elemental Absorption", "required": 12, "prereq": "2d", "selected": 0, "img":"elementalabsorption", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 2mins) Target ally received 5% reduced damage from fire, cold, electric, acid and sonic. Two uses per rest. Lasts until rest",
       "2": "",
       "3": ""

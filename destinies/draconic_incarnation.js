@@ -37,14 +37,14 @@
       "1": {"1": "+1 Intelligence", "2": "+1 Charisma"}
     }
   },
-  "2a": {"abil_name": "Go Out With A Bang", "required": 4, "prereq": [{"req": "1a", "tier": 1}], "selected": 0, "img":"gooutwithabang_fire", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "2a": {"abil_name": "Go Out With A Bang", "required": 4, "prereq": "1a", "selected": 0, "img":"gooutwithabang_fire", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 4mins) Can only be used when HP <= 50%. Nearby enemies take 2d6 fire damage per caster level. Then trigger a diplomacy effect and become invis. Invisibility doesn&rsquo;t break if attacking or casting spells.", 
       "2": "",
       "3": ""
     }
   },
   "2b": null,
-  "2c": {"abil_name": "Barrier of Scales", "required": 4, "prereq": [{"req": "1c", "tier": 1}], "selected": 0, "img":"barrierofscales", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "2c": {"abil_name": "Barrier of Scales", "required": 4, "prereq": "1c", "selected": 0, "img":"barrierofscales", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 2mins) For the next 30 seconds, 60 points of ablative protection versus physical damage. Stacks with Stoneskin and ablative armor.", 
       "2": "(Cooldown: 2mins) For the next 30 seconds, 80 points of ablative protection versus physical damage. Stacks with Stoneskin and ablative armor.",
       "3": "(Cooldown: 2mins) For the next 30 seconds, 100 points of ablative protection versus physical damage. Stacks with Stoneskin and ablative armor."
@@ -60,7 +60,7 @@
     }
   },
   "3a": null,
-  "3b": {"abil_name": "Daunting Roar", "required": 8, "prereq": [{"req": "1b", "tier": 1}], "selected": 0, "img":"dauntingroar", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
+  "3b": {"abil_name": "Daunting Roar", "required": 8, "prereq": "1b", "selected": 0, "img":"dauntingroar", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "(Cooldown: 2mins) Enemies within the AoE are subject to despair effect and will be paralyzed. Will save negates the effect (if save successful still shaken)."
     }
   },
@@ -80,24 +80,24 @@
       "1": {"1": "+1 Intelligence", "2": "+1 Charisma"}
     }
   },
-  "4a": {"abil_name": "Energy Burst", "required": 12, "prereq": [{"req": "2a", "tier": 1}], "selected": 0, "img":"energyburst_fire", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "4a": {"abil_name": "Energy Burst", "required": 12, "prereq": "2a", "selected": 0, "img":"energyburst_fire", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(ooldown: 30 secs) Waves of [fire/cold/electric/acid] emanate from your body dealing 3d6 [fire/cold/electric/acid] damage per caster level ", 
       "2": "",
       "3": ""
     }
   },
-  "4b": {"abil_name": "Secondary Spell Speciality", "required": 12, "prereq": [{"req": "4c", "tier": 1}], "selected": 0, "img":"spellpower_red", "multi": false, "passive": "passive", "ranks": 2, "AP": 1, "abil": {
+  "4b": {"abil_name": "Secondary Spell Speciality", "required": 12, "prereq": "4c", "selected": 0, "img":"spellpower_red", "multi": false, "passive": "passive", "ranks": 2, "AP": 1, "abil": {
       "1": "Choose an energy type not opposed to your dragon heritage. +10% spell power and +1 caster level for spells of that element.", 
       "2": "Choose an energy type not opposed to your dragon heritage. +20% spell power and +2 caster level for spells of that element."
     }
   },
-  "4c": {"abil_name": "Draconic Spell Knowledge", "required": 12, "prereq": [{"req": "3c", "tier": 1}], "selected": 0, "img":"spellpower_red", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "4c": {"abil_name": "Draconic Spell Knowledge", "required": 12, "prereq": "3c", "selected": 0, "img":"spellpower_red", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+1 caster level and maximum caster level on spells of your dragon element.", 
       "2": "+2 caster level and maximum caster level on spells of your dragon element",
       "3": "+3 caster level and maximum caster level on spells of your dragon element"
     }
   },
-  "4d": {"abil_name": "Draconic Spell Augmentation", "required": 12, "prereq": [{"req": "4c", "tier": 1}], "selected": 0, "img":"spellaugment_fire", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "4d": {"abil_name": "Draconic Spell Augmentation", "required": 12, "prereq": "4c", "selected": 0, "img":"spellaugment_fire", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Adds special effect to spells of your heritage: [fire/cold/electric/acid] spells have a small chance to deal a blast of 3d6 extra light damage", 
       "2": "",
       "3": ""
@@ -108,15 +108,15 @@
     }
   },
   "5a": null,
-  "5b": {"abil_name": "Flyby Attack", "required": 16, "prereq": [{"req": "5c", "tier": 1}], "selected": 0, "img":"flyby_fire", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
+  "5b": {"abil_name": "Flyby Attack", "required": 16, "prereq": "5c", "selected": 0, "img":"flyby_fire", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "(Cooldown: 1min) Executes an abundant step which passes through enemies and deals 2d6 [fire/cold/electric/acid] damage per caster level to any enemy struck during the attack. Each enemy is also knockdown unless it succeeds on a fortitude save."
     }
   },
-  "5c": {"abil_name": "Dragon Breath", "required": 16, "prereq": [{"req": "4c", "tier": 1}], "selected": 0, "img":"breath_red", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
+  "5c": {"abil_name": "Dragon Breath", "required": 16, "prereq": "4c", "selected": 0, "img":"breath_red", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "Cooldown: 1min) Cone that deals 60d6 [fire/cold/electric/acid] damage (reflex save for half). Can use 5 times per rest."
     }
   },
-  "5d": {"abil_name": "Draconic Breath Augmentation", "required": 16, "prereq": [{"req": "5c", "tier": 1}], "selected": 0, "img":"breathaugment_fire", "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "5d": {"abil_name": "Draconic Breath Augmentation", "required": 16, "prereq": "5c", "selected": 0, "img":"breathaugment_fire", "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
       "1": "Adds special effect to your breath."
     }
   },
@@ -124,7 +124,7 @@
       "1": {"1": "+1 Intelligence", "2": "+1 Charisma"}
     }
   },
-  "6a": {"abil_name": "Energy Vortex", "required": 20, "prereq": [{"req": "4a", "tier": 1}], "selected": 0, "img":"energyvortex_fire", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6a": {"abil_name": "Energy Vortex", "required": 20, "prereq": "4a", "selected": 0, "img":"energyvortex_fire", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 2mins) Intense elemental energy swirl around you dealing damage to enemy in the AoE. Follows you and deal 1d6 {{multi}} damage per caster level every 2 seconds for 16 seconds "
     }
   },

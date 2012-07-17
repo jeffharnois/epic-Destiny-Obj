@@ -61,7 +61,7 @@
       "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
-  "3a": {"abil_name": "Lay Waste", "required": 8, "prereq": [{"req": "2a", "tier": 1}], "selected": 0, "img":"laywaste", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "3a": {"abil_name": "Lay Waste", "required": 8, "prereq": "2a", "selected": 0, "img":"laywaste", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 1min) Perform an AoE attack with +5[W] damage. On hit: Knocks the target down, Balance DC (10 + character level + strength modifier) negates. Momentum swing has a 25% chance to reset the cooldown of this ability. You must have power attack active to perform this ability."
     }
   },
@@ -125,7 +125,7 @@
       "1": "Increases critical threat range of bludgeoning weapons you equip by 1."
     }
   },
-  "6d": {"abil_name": "Headman&rsquo;s Chop", "required": 20, "prereq": [{"req": "5d", "tier": 1}], "selected": 0, "img":"headmanschop", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "6d": {"abil_name": "Headman&rsquo;s Chop", "required": 20, "prereq": "5d", "selected": 0, "img":"headmanschop", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "When you have an axe equipped in your main hand, you gain an additional +1 Critical Damage Multiplier on rolls of 19-20."
     }
   },

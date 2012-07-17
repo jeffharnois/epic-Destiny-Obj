@@ -48,7 +48,7 @@
       "3": "+9 stacking spell resistance "
     }
   },
-  "2d": {"abil_name": "Hail of Blows", "required": 4, "prereq": [{"req": "1d", "tier": 1}], "selected": 0, "img":"improvedflurryofblows", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "2d": {"abil_name": "Hail of Blows", "required": 4, "prereq": "1d", "selected": 0, "img":"improvedflurryofblows", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "+3% chance to doublestrike on melee attacks ", 
       "2": "+6% chance to doublestrike on melee attacks ",
       "3": "+9% chance to doublestrike on melee attacks "
@@ -58,7 +58,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "3a": {"abil_name": "Orchid Blossom", "required": 8, "prereq": [{"req": "1a", "tier": 1}], "selected": 0, "img":"kiblast", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
+  "3a": {"abil_name": "Orchid Blossom", "required": 8, "prereq": "1a", "selected": 0, "img":"kiblast", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "(Cooldown: 12secs) Projects blast of ki. 80-120 +8-12 dmg per character level to enemies in area. Reflex save for half (DC 10 + Character level + 1/2 wis mod). Cost: 20 ki "
     }
   },
@@ -104,7 +104,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "5a": {"abil_name": "Drifting Lotus", "required": 16, "prereq": [{"req": "3a", "tier": 1}], "selected": 0, "img":"kiburst", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
+  "5a": {"abil_name": "Drifting Lotus", "required": 16, "prereq": "3a", "selected": 0, "img":"kiburst", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "80 - 120 + 8-12 dmg per character level AoE centered around you. Reflex save (DC 10 + character level + 1/2 wis mod) for half damage. Enemies who fail save are knocked down. Cost: 25ki."
     }
   },
@@ -125,7 +125,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "6a": {"abil_name": "A Scattering of Petals", "required": 20, "prereq": [{"req": "5a", "tier": 1}], "selected": 0, "img":"scatteringofpetals", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6a": {"abil_name": "A Scattering of Petals", "required": 20, "prereq": "5a", "selected": 0, "img":"scatteringofpetals", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 1 min) Nearby enemies must make a fortitude save (DC 20 + character level + 1/2 wis mod) or become blinded. For the next 12 seconds, gain +25% dodge. Cost: 30 Ki."
     }
   },

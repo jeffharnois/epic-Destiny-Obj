@@ -65,7 +65,7 @@
       "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
-  "3a": {"abil_name": "Insult", "required": 8, "prereq": [{"req": "2a", "tier": 1}], "selected": 0, "img":"insult", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "3a": {"abil_name": "Insult", "required": 8, "prereq": "2a", "selected": 0, "img":"insult", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 20secs) Your next attack generates triple threat, and for 20 seconds your target gains +2 Strength, +2 constitution and -10 AC, -10 concentration and -20% fortification "
     }
   },
@@ -91,13 +91,13 @@
       "2": "Weapons you equip are considered cold iron and gain Evil Outsider Bane"
     }
   },
-  "4b": {"abil_name": "Wild Weapons", "required": 12, "prereq": [{"req": "3b", "tier": 1}], "selected": 0, "img":"wildweapons", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "4b": {"abil_name": "Wild Weapons", "required": 12, "prereq": "3b", "selected": 0, "img":"wildweapons", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+3% glancing blow damage.", 
       "2": "+6% glancing blow damage.",
       "3": "+9% glancing blow damage."
     }
   },
-  "4c": {"abil_name": "Sense Weakness", "required": 12, "prereq": [{"req": "2c", "tier": 1}], "selected": 0, "img":"senseweakness", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "4c": {"abil_name": "Sense Weakness", "required": 12, "prereq": "2c", "selected": 0, "img":"senseweakness", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "You deal 10% extra damage to helpless targets. Your melee attacks deal 1d8 extra damage to enemies below 75% HP.", 
       "2": "You deal 20% extra damage to helpless targets. Your melee attacks deal 1d8 extra damage to enemies below 75% HP, 1d12 extra damage to enemies below 50% HP.  These are cumulative.",
       "3": "You deal 30% extra damage to helpless targets. Your melee attacks deal 1d8 extra damage to enemies below 75% HP, 1d15 extra damage to enemies below 50% HP, and 1d20 extra damage to enemies below 25% HP. These are cumulative."

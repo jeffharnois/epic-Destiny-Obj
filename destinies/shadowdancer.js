@@ -48,7 +48,7 @@
       "3": "+6 reflex, AC and light armor Max Dex Bonus "
     }
   },
-  "2d": {"abil_name": "Skill Mastery", "required": 4, "prereq": [{"req": "1d", "tier": 1}], "selected": 0, "img":"skillmastery", "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "2d": {"abil_name": "Skill Mastery", "required": 4, "prereq": "1d", "selected": 0, "img":"skillmastery", "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
       "1": "+1 stacking to all skills. "
     }
   },
@@ -56,7 +56,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Intelligence"}
     }
   },
-  "3a": {"abil_name": "Cloak of Shadows", "required": 8, "prereq": [{"req": "3b", "tier": 1}], "selected": 0, "img":"cloakofshadows", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "3a": {"abil_name": "Cloak of Shadows", "required": 8, "prereq": "3b", "selected": 0, "img":"cloakofshadows", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 2mins) Spend a Shadow Charge to cloak in darkness, granting immunity to light and negative damage for 5 minutes, or until 120 damage have been absorbed."
     }
   },
@@ -83,14 +83,14 @@
     }
   },
   "4a": null,
-  "4b": {"abil_name": "Improved Invisibility", "required": 12, "prereq": [{"req": "3b", "tier": 1}], "selected": 0, "img":"improvedinvis", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "4b": {"abil_name": "Improved Invisibility", "required": 12, "prereq": "3b", "selected": 0, "img":"improvedinvis", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 4min) Turn invisible for 10 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 1min30).", 
       "2": "(Cooldown: 4min) Turn invisible for 20 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 1min30).",
       "3": "(Cooldown: 4min) Turn invisible for 30 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 1min30)."
     }
   },
   "4c": null,
-  "4d": {"abil_name": "Pierce the Gloom", "required": 12, "prereq": [{"req": "3d", "tier": 1}], "selected": 0, "img":"piercethegloom", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "4d": {"abil_name": "Pierce the Gloom", "required": 12, "prereq": "3d", "selected": 0, "img":"piercethegloom", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 2min) Gain +100% to your attack bonus for 30 seconds."
     }
   },
@@ -98,11 +98,11 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Intelligence"}
     }
   },
-  "5a": {"abil_name": "Shadow Manipulation", "required": 16, "prereq": [{"req": "3a", "tier": 1}], "selected": 0, "img":"shadowmanipulation", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "5a": {"abil_name": "Shadow Manipulation", "required": 16, "prereq": "3a", "selected": 0, "img":"shadowmanipulation", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 2min) Spend a Shadow Charge to dominate the target for 1 minute (DC 14 + character level + int modifier), after which it is subject to instant death if it fails a fort save (DC 14 + character level + Int modifier)."
     }
   },
-  "5b": {"abil_name": "Untouchable", "required": 16, "prereq": [{"req": "4b", "tier": 1}], "selected": 0, "img":"untouchable", "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "5b": {"abil_name": "Untouchable", "required": 16, "prereq": "4b", "selected": 0, "img":"untouchable", "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
       "1": "Gain 1% extra dodge for each Shadow Charge you hold. "
     }
   },
@@ -120,15 +120,15 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Intelligence"}
     }
   },
-  "6a": {"abil_name": "Consume", "required": 20, "prereq": [{"req": "5a", "tier": 1}], "selected": 0, "img":"consume", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6a": {"abil_name": "Consume", "required": 20, "prereq": "5a", "selected": 0, "img":"consume", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 2min) Spend a Shadow Charge to crate a field around you for 10 seconds. Every 2 seconds the aura causes one nearby corporal enemy to be devoured by its own shadow and die (save negates), or take 80-120 damage. You are free to perform other action while the aura is active."
     }
   },
-  "6b": {"abil_name": "Shadow Form", "required": 20, "prereq": [{"req": "5b", "tier": 1}], "selected": 0, "img":"shadowform", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6b": {"abil_name": "Shadow Form", "required": 20, "prereq": "5b", "selected": 0, "img":"shadowform", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 1min) Spend a shadow charge to gain 25% incorporeality (and ignore incorporeal miss chance), float as if affected by featherfall, have bonuses to hide and move silently and deal strength damage on all melee and ranged attacks. You also take double damage from light effects."
     }
   },
-  "6c": {"abil_name": "Oncoming Darkness", "required": 20, "prereq": [{"req": "6b", "tier": 1}], "selected": 0, "img":"darkimbuement", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6c": {"abil_name": "Oncoming Darkness", "required": 20, "prereq": "6b", "selected": 0, "img":"darkimbuement", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 4min) Each time an enemy affected by your Dark Shrouding mark dies, you gain 1 charge. When you have accumulated 20 of these charges, you can expend them to enchant your melee and ranged attacks with shadowy energy. You deal an extra 2d6 unholy damage with every strike, the effective range of your melee attacks increases dramatically, and your ranged attacks have a 30% chance to explode, dealing 10d6 unholy damage to all enemies in a large radius around your target."
     }
   },

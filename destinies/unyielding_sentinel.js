@@ -48,7 +48,7 @@
       "3": "+1 Smite Evil use per rest. Smite evil uses regenerate 30% faster."
     }
   },
-  "2d": {"abil_name": "Legendary Shield Mastery", "required": 4, "prereq": [{"req": "1d", "tier": 1}], "selected": 0, "img":"legendaryshieldmastery", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "2d": {"abil_name": "Legendary Shield Mastery", "required": 4, "prereq": "1d", "selected": 0, "img":"legendaryshieldmastery", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "While wearing a shield, +5 Physical resistance.", 
       "2": "While wearing a shield, +10 Physical resistance.",
       "3": "While wearing a shield, +15 Physical resistance."
@@ -112,7 +112,7 @@
       "3": ""
     }
   },
-  "5d": {"abil_name": "Anoint weapon", "required": 16, "prereq": [{"req": "4d", "tier": 1}, {"req": "5c", "tier": 1}], "selected": 0, "img":"annointweapon", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "5d": {"abil_name": "Anoint weapon", "required": 16, "prereq": "4d,5c", "selected": 0, "img":"annointweapon", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "If you are good aligned, while you Stand Against the Tide, weapons you equip gain holy dealing 2d6 extra damage vs. evil targets."
     }
   },

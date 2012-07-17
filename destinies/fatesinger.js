@@ -35,13 +35,13 @@
       "1": {"1": "+1 Charisma", "2": "+1 Strength"}
     }
   },
-  "2a": {"abil_name": "Tailwind", "required": 4, "prereq": [{"req": "1a", "tier": 1}], "selected": 0, "img":"tailwind", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "2a": {"abil_name": "Tailwind", "required": 4, "prereq": "1a", "selected": 0, "img":"tailwind", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Inspire courage grants +2 damage to all missile weapons.", 
       "2": "Inspire courage grants +4 damage to all missile weapons.",
       "3": "Inspire courage grants +6 damage to all missile weapons."
     }
   },
-  "2b": {"abil_name": "Lucidity", "required": 4, "prereq": [{"req": "1b", "tier": 1}], "selected": 0, "img":"lucidity", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "2b": {"abil_name": "Lucidity", "required": 4, "prereq": "1b", "selected": 0, "img":"lucidity", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+2 to Concentration, diplomacy and UMD and an song per rest.", 
       "2": "+4 to Concentration, diplomacy and UMD and an 2 extra songs per rest.",
       "3": "+6 to Concentration, diplomacy and UMD and an 3 extra songs per rest."
@@ -83,7 +83,7 @@
       "1": {"1": "+1 Charisma", "2": "+1 Strength"}
     }
   },
-  "4a": {"abil_name": "Chord of Disruption", "required": 12, "prereq": [{"req": "3a", "tier": 1}], "selected": 0, "img":"chorddisruption", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "4a": {"abil_name": "Chord of Disruption", "required": 12, "prereq": "3a", "selected": 0, "img":"chorddisruption", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "When siren&rsquo;s song expires, chord of disruption focuses your energy to a single disruptive point causing 5d100+700 disintegrating sonic damage. If save made effects are halved.", 
       "2": "When siren&rsquo;s song expires, chord of disruption focuses your energy to a single disruptive point causing 6d100+800 disintegrating sonic damage. If save made effects are halved.",
       "3": "When siren&rsquo;s song expires, chord of disruption focuses your energy to a single disruptive point causing 7d100+900 disintegrating sonic damage. If save made effects are halved."
@@ -129,7 +129,7 @@
       "1": {"1": "+1 Charisma", "2": "+1 Strength"}
     }
   },
-  "6a": {"abil_name": "Grim Fate", "required": 20, "prereq": [{"req": "5a", "tier": 1}], "selected": 0, "img":"grimfate", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "6a": {"abil_name": "Grim Fate", "required": 20, "prereq": "5a", "selected": 0, "img":"grimfate", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Your bounds fate increase the target vulnerability to physical attacks by 5%. Grim fate may take effect if bound fate is resisted. Duration 30 seconds. ", 
       "2": "Your bounds fate increase the target vulnerability to physical attacks by 10%. Grim fate may take effect if bound fate is resisted. Duration 30 seconds. ",
       "3": "Your bounds fate increase the target vulnerability to physical attacks by 15%. Grim fate may take effect if bound fate is resisted. Duration 30 seconds. "
