@@ -37,14 +37,14 @@
   },
   "2a": {"abil_name": "Seeking Balance", "required": 4, "prereq": null, "selected": 0, "img":"", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "You gain +1 Reflex Saving Throws, +2 Tumble, and +2 Balance while shapeshifted into an animal form, wielding two weapons, or unarmed. These are Primal bonuses. Skill bonuses required already having at least one rank in the skill.", 
-      "2": "",
-      "3": ""
+      "2": "You gain +2 Reflex Saving Throws, +4 Tumble, and +4 Balance while shapeshifted into an animal form, wielding two weapons, or unarmed. These are Primal bonuses. Skill bonuses required already having at least one rank in the skill.",
+      "3": "You gain +2 Reflex Saving Throws, +4 Tumble, and +4 Balance while shapeshifted into an animal form, wielding two weapons, or unarmed. These are Primal bonuses. Skill bonuses required already having at least one rank in the skill."
     }
   },
   "2b": {"abil_name": "Supple as Spring", "required": 4, "prereq": null, "selected": 0, "img":"", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Nearby allies gain +1% Primal Bonus to Dodge if they have been damaged in combat in the past six seconds", 
-      "2": "",
-      "3": ""
+      "2": "Nearby allies gain +2% Primal Bonus to Dodge if they have been damaged in combat in the past six seconds",
+      "3": "Nearby allies gain +3% Primal Bonus to Dodge if they have been damaged in combat in the past six seconds"
     }
   },
   "2c": {"abil_name": "Contagious Spores", "required": 4, "prereq": null, "selected": 0, "img":"", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
@@ -53,7 +53,7 @@
   },
   "2d": {"abil_name": "Natural Shielding", "required": 4, "prereq": null, "selected": 0, "img":"", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Your summoned and charmed pets, hirelings, and monsters gain +30 maximum HP and +10 PRR.", 
-      "2": "",
+      "2": "Your summoned and charmed pets, hirelings, and monsters gain +60 maximum HP and +20 PRR.",
       "3": "Your summoned and charmed pets, hirelings, and monsters gain +100 maximum HP and +30 PRR.  In addition, natural creatures you control gain evasion."
     }
   },
