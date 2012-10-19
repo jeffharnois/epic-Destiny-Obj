@@ -27,8 +27,14 @@
       "3": "Target enemy becomes contaminated with spores for 18 seconds. Every 2 seconds the target takes 1d4 Poison and Rust damage, plus 1d4 per three character levels. Stacks up to 4 times."
     }
   },
-  "1d": {"abil_name": "Friends of Nature", "required": 0, "prereq": null, "selected": 0, "img":"friendsofnature", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
-      "1": "You call forth a small nature animal, providing a bonus to nearby allies."
+  "1d": {"abil_name": "Friends of Nature", "required": 0, "prereq": null, "selected": 0, "img":"friendsofnature", "multi": "multi", "passive": false, "ranks": 1, "AP": 2, "abil": {
+      "1": {
+        "1":"Bat: Calls a bat to your aid, giving nearby allies +10 sonic spellpower, +5 sonic resist, and +3 listen",
+        "2":"Bird:  Calls a bird to your air, giving nearby allies +1 Dodge and +3 spot",
+        "3":"Fox: 1 sneak attack damage, +3 MS",
+        "4":"Frog: +2 PRR, +3 jump",
+        "5":"Squirrel: +2 attack while flanking, +3 hide"
+      }
     }
   },
   "1e": {"abil_name": "Strength or Wisdom", "required": 0, "prereq": null, "selected": 0, "img":"", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
