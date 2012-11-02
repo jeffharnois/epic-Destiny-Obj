@@ -16,15 +16,15 @@
     }
   },
   "1b": {"abil_name": "Rejuvination Cocoon", "required": 0, "prereq": null, "selected": 0, "img":"rejuvenationcocoon", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "Protect target ally with a shield of 90 temporary HP for 30 seconds. Heals 2d10 HP every 2 seconds while the shield persists.", 
-      "2": "Protect target ally with a shield of 120 temporary HP for 30 seconds. Heals 2d10 HP every 2 seconds while the shield persists.",
-      "3": "Protect target ally with a shield of 150 temporary HP for 30 seconds. Heals 2d10 HP every 2 seconds while the shield persists."
+      "1": "Protect target ally with a shield of 90 temporary HP for 30 seconds. Heals 1d10 HP every 2 seconds while the shield persists.", 
+      "2": "Protect target ally with a shield of 120 temporary HP for 30 seconds. Heals 1d10 HP every 2 seconds while the shield persists.",
+      "3": "Protect target ally with a shield of 150 temporary HP for 30 seconds. Heals 1d10 HP every 2 seconds while the shield persists."
     }
   },
   "1c": {"abil_name": "Insidious Spores", "required": 0, "prereq": null, "selected": 0, "img":"insidiousspores", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "Target enemy becomes contaminated with spores for 6 seconds. Every 2 seconds the target takes 1d4 Poison and Rust damage, plus 1d4 per three character levels. Stacks up to 4 times.", 
-      "2": "Target enemy becomes contaminated with spores for 12 seconds. Every 2 seconds the target takes 1d4 Poison and Rust damage, plus 1d4 per three character levels. Stacks up to 4 times.",
-      "3": "Target enemy becomes contaminated with spores for 18 seconds. Every 2 seconds the target takes 1d4 Poison and Rust damage, plus 1d4 per three character levels. Stacks up to 4 times."
+      "1": "Target enemy becomes contaminated with spores for 18 seconds. Every 2 seconds the target takes 2d10 Poison and Rust damage. Stacks up to 2 times.  Enemies damaged by Insidious Spores become Contagious for five minutes afterwards, spreading Insidious Spores to some nearby enemies when they die.", 
+      "2": "Target enemy becomes contaminated with spores for 18 seconds. Every 2 seconds the target takes 2d10 Poison and Rust damage. Stacks up to 3 times.  Enemies damaged by Insidious Spores become Contagious for five minutes afterwards, spreading Insidious Spores to some nearby enemies when they die.",
+      "3": "Target enemy becomes contaminated with spores for 18 seconds. Every 2 seconds the target takes 2d10 Poison and Rust damage. Stacks up to 4 times.  Enemies damaged by Insidious Spores become Contagious for five minutes afterwards, spreading Insidious Spores to some nearby enemies when they die."
     }
   },
   "1d": {"abil_name": "Friends of Nature", "required": 0, "prereq": null, "selected": 0, "img":"friendsofnature", "multi": "multi", "passive": false, "ranks": 1, "AP": 2, "abil": {
@@ -53,8 +53,12 @@
       "3": "Nearby allies gain +3% Primal Bonus to Dodge if they have been damaged in combat in the past six seconds"
     }
   },
-  "2c": {"abil_name": "Contagious Spores", "required": 4, "prereq": "1c", "selected": 0, "img":"contagiousspores", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
-      "1": "Enemies infected with Insidious Spires become carriers of sickness after a short incubation perioud. When they die, other enemies nearby have a 20% chance to become infected or gain another stack of infection."
+  "2c": {"abil_name": "Favored Enemy", "required": 4, "prereq": null, "selected": 0, "img":"contagiousspores", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+      "1": {
+        "1": "Some things should not be. Gain +2 damage against Aberrations. This also increases your damage against your other favored enemies by +2.", 
+        "2": "Some things should not be. Gain +2 damage against Constructs. This also increases your damage against your other favored enemies by +2.", 
+        "3": "Some things should not be. Gain +2 damage against Undead. This also increases your damage against your other favored enemies by +2."
+      }
     }
   },
   "2d": {"abil_name": "Natural Shielding", "required": 4, "prereq": null, "selected": 0, "img":"naturalshielding", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
@@ -94,17 +98,17 @@
     }
   },
   "4a": {"abil_name": "Paired Parry / Symetric Strikes", "required": 12, "prereq": "3a", "selected": 0, "img":"pp-ss", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
-      "1": {"1": "Gain +5 AC while in animal form, unarmed, or two-weapon fighting.", "2": "Gain 2% doublestrike while in animal form, unarmed, or two-weapon fighting."}
+      "1": {"1": "Gain +5 AC while in animal form, unarmed, or two-weapon fighting.", "2": "Gain 5% physical damage while in animal form, unarmed, or two-weapon fighting."}
     }
   },
   "4b": {"abil_name": "Autumn Harvest", "required": 12, "prereq": null, "selected": 0, "img":"autumnharvest", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
-      "1": "You and nearby allies have a 10% chance to heal 1d8 when attacking enemies.", 
-      "2": "You and nearby allies have a 10% chance to heal 2d8 when attacking enemies.",
-      "3": "You and nearby allies have a 10% chance to heal 3d8 when attacking enemies."
+      "1": "When enemies die there's a 5% chance for all party members near that enemy to receive 10d10 positive healing. (This isn\'t effected by spellpower)", 
+      "2": "When enemies die there's a 5% chance for all party members near that enemy to receive 15d10 positive healing. (This isn\'t effected by spellpower)",
+      "3": "When enemies die there's a 5% chance for all party members near that enemy to receive 20d10 positive healing. (This isn\'t effected by spellpower)"
     }
   },
   "4c": {"abil_name": "Stormrage", "required": 12, "prereq": null, "selected": 0, "img":"stormrage", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
-      "1": "Enemies damaged by your attacks or spells are also struck by lightning, dealing 1d100 electric damage, halved on a reflex save vs. DC 50. Lightning strikes up to one enemy each second. You also gain featherfall and Deflect Arrows. Lasts 12 seconds."
+      "1": "Enemies damaged by your attacks or spells are also struck by lightning, dealing 10d20 electric damage, halved on a reflex save vs. DC 50. Lightning strikes up to one enemy each second. You also gain featherfall and Deflect Arrows. Lasts 18 seconds."
     }
   },
   "4d": {"abil_name": "Summon Dryad Elder", "required": 12, "prereq": null, "selected": 0, "img":"summondryad", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
