@@ -102,9 +102,9 @@
     }
   },
   "4b": {"abil_name": "Autumn Harvest", "required": 12, "prereq": null, "selected": 0, "img":"autumnharvest", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
-      "1": "When enemies die there's a 5% chance for all party members near that enemy to receive 10d10 positive healing. (This isn\'t effected by spellpower)", 
-      "2": "When enemies die there's a 5% chance for all party members near that enemy to receive 15d10 positive healing. (This isn\'t effected by spellpower)",
-      "3": "When enemies die there's a 5% chance for all party members near that enemy to receive 20d10 positive healing. (This isn\'t effected by spellpower)"
+      "1": "When enemies die there's a 5% chance for all party members near that enemy to receive 10d10 positive healing. (This isnt effected by spellpower)", 
+      "2": "When enemies die there's a 5% chance for all party members near that enemy to receive 15d10 positive healing. (This isnt effected by spellpower)",
+      "3": "When enemies die there's a 5% chance for all party members near that enemy to receive 20d10 positive healing. (This isnt effected by spellpower)"
     }
   },
   "4c": {"abil_name": "Stormrage", "required": 12, "prereq": null, "selected": 0, "img":"stormrage", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
@@ -135,7 +135,7 @@
       "1": {"1": "+1 Strength", "2": "+1 Wisdom"}
     }
   },
-  "6a": {"abil_name": "Nature\'s Fury / Natural Evasion", "required": 20, "prereq": "4a", "selected": 0, "img":"nfne", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "6a": {"abil_name": "Natures Fury / Natural Evasion", "required": 20, "prereq": "4a", "selected": 0, "img":"nfne", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "Gain +1 critical damage multiplier on a roll of 19-20 while in animal form, unarmed, or two-weapon fighting.", "2": "Gain Evasion while in animal form, unarmed, or two-weapon fighting."}
     }
   },
@@ -146,7 +146,7 @@
       Size 2+: When you attack enemies they become poisoned, taking 2d10 poison damage every 2 seconds for several seconds. This poison stacks up to 5 times.<br />
       Size 3+: Enemies attacking you have a chance to become diseased, dealing 1d4 Constitution damage every two seconds for 10 seconds.<br />
       Size 4: The ground shakes when you put your foot down. Your third attack while standing still knocks down nearby enemies and deals extra bludgeoning damage in an area.<br />
-      This costs 1 Spirit every few seconds per size you\'ve gained (Turns off if you run out of Spirit.)"
+      This costs 1 Spirit every few seconds per size youve gained (Turns off if you run out of Spirit.)"
     }
   },
   "6d": null,
