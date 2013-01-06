@@ -1,6 +1,7 @@
 {
   "dID": "fatesinger",
   "name": "Fatesinger",
+  "points_spent": 0,
   "autogrants": [
       {"abil_name":"Fatesinger&rsquo;s Repertoire", "img":"fatesingersrepertoire-taken", "abil": "For every level of Fatesinger, gain 2 Songs, +3 sonic resistance and 25 Spell Points. If you didn&rsquo;t have inspire courage gain that feat. You also gain +1 effective Arcane caster level.", "passive": false},
       {"abil_name":"Glitter of Fame", "img":"glitteroffame-taken", "abil": "(level 1) Gain +1 to your effective Arcane caster level and a +1 to hit. Special Effect: As long as you are above 10% Health, you radiate confidence: gain a +1 to all Ability scores.", "passive": "passive"},

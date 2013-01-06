@@ -1,6 +1,7 @@
 {
   "dID": "shiradi_champion",
   "name": "Shiradi Champion",
+  "points_spent": 0,
   "autogrants": [
       {"abil_name":"Fey Favor", "img":"feyfavor-taken", "abil": "You gain 100 SP and proficiency with longbows and shortbows. +1 Druid and Ranger caster level per level of Shiradi Champion. Each time you Vorpal with ranged and thrown attacks you gain Fey Favor. You have 7% chance to gain fey favor each time you cast an offensive spell. Favor of the fey: +1 Luck bonus to Ranged Attacks and +1 diplomacy. This stacks up to 10 times.", "passive": "passve"},
       {"abil_name":"Fey Visions", "img":"feyvisions-taken", "abil": "(level 1) +1 ranged damage, +5 spellpower, +5 search. Automatically detect secret doors", "passive": "passve"},

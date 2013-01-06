@@ -1,6 +1,7 @@
 {
   "dID": "primal_avatar",
   "name": "Primal Avatar",
+  "points_spent": 0,
   "autogrants": [
       {"abil_name":"Spirit of Strength", "img":"spiritofstrength", "abil": "(5 sec cooldown) When you hit with a melee attack, or cast a spell on an ally, or cast an offensive spell on an enemy, you gain 1 Spirit. Each of these three categories triggers only once every three seconds. You can have up to 30 Spirit. Spirit decays at a rate of one every 9 seconds. Toggle: You gain +30 Universal Spell Power. Costs 1 Spirit to activate and 1 Spirit every six seconds. (Stays toggled on until manually turned off.)", "passive": false},
       {"abil_name":"Magic of Nature", "img":"magicofnature", "abil": "(level 1) +50 SP per level of Primal Avatar.<br />You gain caster levels equal to your Primal Avatar level for Druid and Ranger sells, if you have any levels in those classes.", "passive": "passive"},

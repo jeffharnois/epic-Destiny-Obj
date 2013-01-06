@@ -1,6 +1,7 @@
 {
   "dID": "legendary_dreadnought",
   "name": "Legendary Dreadnought",
+  "points_spent": 0,
   "autogrants": [
       {"abil_name":"Shrug Off Punishment", "img":"shrugoffpunishment", "abil": "+10 Max Health per level of Legendary Dreadnought (including this one).", "passive": "passive"},
       {"abil_name":"Action Hero", "img":"actionhero", "abil": "(level 1) Reduces the cooldowns of your Action Boost abilities by 33%.", "passive": "passive"},

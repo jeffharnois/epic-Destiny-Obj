@@ -1,6 +1,7 @@
 {
   "dID": "magister",
   "name": "Magister",
+  "points_spent": 0,
   "autogrants": [
       {"abil_name":"Arcane Study I", "img":"arcanestudy_i", "abil": "+50 SP +1 caster level to all arcane spell", "passive": "passive"},
       {"abil_name":"Arcane Study II", "img":"arcanestudy_ii", "abil": "(level 1) +50 SP +1 caster level to all arcane spell", "passive": "passive"},

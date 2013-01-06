@@ -1,6 +1,7 @@
 {
   "dID": "fury_of_the_wild",
   "name": "Fury of the Wild",
+  "points_spent": 0,
   "autogrants": [
       {"abil_name":"Adrenaline", "img":"adrenaline-taken", "abil": "(Cooldown: 5secs) You gain +1 damage per level of Fury of the Wild. Gain 2 Adrenaline uses per raged until your next attack. Your next attack deals +300% damage and increases your critical threat range by 2. You are considered raged until your next attack.", "passive": false},
       {"abil_name":"Brawn", "img":"epictoughness", "abil": "(level 1) Gain 50 maximum HP", "passive": "passive"},

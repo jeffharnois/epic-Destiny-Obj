@@ -1,6 +1,7 @@
 {
   "dID": "grandmaster_of_flowers",
   "name": "Grandmaster of Flowers",
+  "points_spent": 0,
   "autogrants": [
       {"abil_name":"Inner Focus", "img":"innerfocus-taken", "abil": "(Cooldown: 5 mins) Instantly restore 25-125 Ki. (Passive): You gain +10 maximum ki and +1 stacking spell resistance, and an additional +10 maximum ki and +1 stacking spell resistance for each level of Grandmaster of Flowers you have, to a maximum of +60ki and +6 SR)", "passive": false},
       {"abil_name":"Centered Mind", "img":"slipperymind", "abil": "(level 1) Grants slippery mind as a bonus feat, allowing an extra saving throw versus enchantments. Also gain +1 to the DC of your tactical feats", "passive": "passive"},

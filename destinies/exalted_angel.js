@@ -1,6 +1,7 @@
 {
   "dID": "exalted_angel",
   "name": "Exalted Angel",
+  "points_spent": 0,
   "autogrants": [
       {"abil_name":"Celestial Destiny", "img":"celestialdestiny", "abil": "Gain 50 sp. Each additional level of Exalted Angel grants 50 sp and +1 to Cleric, Paladin and Favored Soul caster levels. The Renewal ability can now target yourself instead of only allies.", "passive": "passive"},
       {"abil_name":"Angelic Presence(", "img":"angelicpresence-taken", "abil": "(level 1) (Cooldown: 10secs) Toggle: While above 50% Health you have a +2 sacred bonus to Charisma, and all enemies have a -2 penalty to attack rolls. This penalty counts as a Fear effect and stacks with Angel of Vengeance aura", "passive": false},

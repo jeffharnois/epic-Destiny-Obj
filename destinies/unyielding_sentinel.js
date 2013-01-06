@@ -1,6 +1,7 @@
 {
   "dID": "unyielding_sentinel",
   "name": "Unyielding Sentienel",
+  "points_spent": 0,
   "autogrants": [
       {"abil_name":"Vigor of Battle", "img":"vigorofbattle", "abil": "+50 hp. Sentinel stance (Active Cooldown: 20secs): 10% healing amp and +50 hp. Enemies you hit gain healing touch for 3 seconds: grants 10 temporary HP to targets they attack.", "passive": false},
       {"abil_name":"Unbreakable", "img":"unbreakable-taken", "abil": "(level 1) +5 sacred bonus to natural armor. You gain the diehard feat. Sentinel stance (Active Cooldown: 20secs): you gain DR 10/epic", "passive": false},

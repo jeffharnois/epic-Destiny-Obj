@@ -1,6 +1,7 @@
 {
   "dID": "shadowdancer",
   "name": "Shadowdancer",
+  "points_spent": 0,
   "autogrants": [
       {"abil_name":"Shadow Training I", "img":"shadowtraining_i", "abil": "+1 sneak die for each level of Shadowdancer", "passive": "passive"},
       {"abil_name":"Shadow Training II", "img":"fullmovesneak", "abil": "(level 1) (Cooldown: 5mins) activate this ability to gain temporary full movement and use of jump when stealthed for 30 seconds.", "passive": false},
