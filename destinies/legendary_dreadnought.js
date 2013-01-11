@@ -93,7 +93,7 @@
     }
   },
   "4c": {"abil_name": "Lightning Mace", "required": 12, "prereq": null, "selected": 0, "img":"lightningmace", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
-      "1": "(Cooldown: 12secs) Melee Attack On Hit 100 Electrical damage. On Critical Gain +15% enhancement bonus to melee double strike for 6 seconds. On Vorpal Target's takes 10d100 Electrical damage. Requires a Club, Greatclub, Heavy Mace, Light Mace, Morningstar, or Quarterstaff to be equipped in your main hand."
+      "1": "(Cooldown: 12secs) Melee Attack On Hit 100 Electrical damage. On Critical Gain +15% enhancement bonus to melee double strike for 6 seconds. On Vorpal Targets takes 10d100 Electrical damage. Requires a Club, Greatclub, Heavy Mace, Light Mace, Morningstar, or Quarterstaff to be equipped in your main hand."
     }
   },
   "4d": {"abil_name": "Anvil of Thunder", "required": 12, "prereq": null, "selected": 0, "img":"anvilofthunder", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {

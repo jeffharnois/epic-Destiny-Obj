@@ -41,7 +41,7 @@
   },
   "2a": {"abil_name": "Injury", "required": 4, "prereq": null, "selected": 0, "img":"injury", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "While you are injured, enemies you damage in melee are shaken.", 
-      "2": "When you're below 70% of your hit points enemies receive a bleed proc for 1d10 damage every 2 seconds for 10 seconds.",
+      "2": "When you are below 70% of your hit points enemies receive a bleed proc for 1d10 damage every 2 seconds for 10 seconds.",
       "3": "When you are below 30% hit points, you have a 10% chance of paralyzing your enemies for 5 seconds."
     }
   },
