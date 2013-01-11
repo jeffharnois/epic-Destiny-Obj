@@ -1,6 +1,7 @@
 {
   "dID": "legendary_dreadnought",
   "name": "Legendary Dreadnought",
+  "points_remaining": 24,
   "points_spent": 0,
   "autogrants": [
       {"abil_name":"Shrug Off Punishment", "img":"shrugoffpunishment", "abil": "+10 Max Health per level of Legendary Dreadnought (including this one).", "passive": "passive"},
@@ -12,8 +13,8 @@
   ],
   "1a": {"abil_name": "Sundering swing", "required": 0, "prereq": null, "selected": 0, "img":"sunderingswings", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 1min) For next 9 seconds all attacks you make apply an improved sunder effect on hit.", 
-      "2": "",
-      "3": ""
+      "2": "(Cooldown: 1min) For next 12 seconds all attacks you make apply an improved sunder effect on hit.",
+      "3": "(Cooldown: 1min) For next 15 seconds all attacks you make apply an improved sunder effect on hit."
     }
   },
   "1b": {"abil_name": "Legendary Tactics", "required": 0, "prereq": null, "selected": 0, "img":"legendarytactics", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
@@ -29,9 +30,9 @@
     }
   },
   "1d": {"abil_name": "Action Boost: Attack", "required": 0, "prereq": null, "selected": 0, "img":"actionboost_attack", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 30secs) Activate to gain a +15 action boost bonus to attack for 20 seconds.", 
-      "2": "(Cooldown: 30secs) Activate to gain a +30 action boost bonus to attack for 20 seconds.",
-      "3": "(Cooldown: 30secs) Activate to gain a +45 action boost bonus to attack for 20 seconds."
+      "1": "(Cooldown: 30secs) Activate to gain a +4 action boost bonus to attack for 20 seconds (This epic ability cannot be taken if you have Action Boost Damage as a class enhancement, and it shares a cooldown with all other action boosts).", 
+      "2": "(Cooldown: 30secs) Activate to gain a +6 action boost bonus to attack for 20 seconds.",
+      "3": "(Cooldown: 30secs) Activate to gain a +8 action boost bonus to attack for 20 seconds."
     }
   },
   "1e": {"abil_name": "Strength or Constitution", "required": 0, "prereq": null, "selected": 0, "img":"strcon", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
@@ -39,9 +40,9 @@
     }
   },
   "2a": {"abil_name": "Momentum Swing", "required": 4, "prereq": null, "selected": 0, "img":"momentumswing", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 1min) Perform an attack with +5[W] damage, +1 critical threat range and critical damage multiplier. Cleave attacks have 15% chance to reset the cooldown of this ability. You must have power attack active to perform this ability. ", 
-      "2": "",
-      "3": ""
+      "1": "(Cooldown: 1min) Perform an attack with +5[W] damage, +1 critical threat range. Cleave attacks have 15% chance to reset the cooldown of this ability (this cannot occur more than once every 3 seconds).  You must have power attack active to perform this ability. ", 
+      "2": "(Cooldown: 1min) Perform an attack with +5[W] damage, +2 critical threat range. Cleave attacks have 30% chance to reset the cooldown of this ability (this cannot occur more than once every 3 seconds).",
+      "3": "(Cooldown: 1min) Perform an attack with +5[W] damage, +3 critical threat range. Cleave attacks have 50% chance to reset the cooldown of this ability (this cannot occur more than once every 3 seconds)."
     }
   },
   "2b": {"abil_name": "Improved Combat Expertise", "required": 4, "prereq": null, "selected": 0, "img":"improvedcombatexpertise", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
@@ -53,9 +54,9 @@
     }
   },
   "2d": {"abil_name": "Action Boost: Damage", "required": 4, "prereq": null, "selected": 0, "img":"actionboost_damage", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "Activate to gain +20% action boost bonus to weapon damage for 20 seconds.", 
-      "2": "",
-      "3": ""
+      "1": "Activate to gain +20% action boost bonus to weapon damage for 20 seconds (This epic ability cannot be taken if you have Action Boost Damage as a class enhancement, and it shares a cooldown with all other action boosts).", 
+      "2": "Activate to gain +25% action boost bonus to weapon damage for 20 seconds.",
+      "3": "Activate to gain +30% action boost bonus to weapon damage for 20 seconds."
     }
   },
   "2e": {"abil_name": "Strength or Constitution", "required": 4, "prereq": null, "selected": 0, "img":"strcon", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
@@ -63,7 +64,7 @@
     }
   },
   "3a": {"abil_name": "Lay Waste", "required": 8, "prereq": "2a", "selected": 0, "img":"laywaste", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
-      "1": "(Cooldown: 1min) Perform an AoE attack with +5[W] damage. On hit: Knocks the target down, Balance DC (10 + character level + strength modifier) negates. Momentum swing has a 25% chance to reset the cooldown of this ability. You must have power attack active to perform this ability."
+      "1": "(Cooldown: 1min) Perform an AoE attack with +5[W] damage. On hit: Knocks the target down, Balance DC (10 + character level + strength modifier) negates. Momentum swing has a 25% chance to reset the cooldown of this ability (this cannot occur more than once every 3 seconds). You must have power attack active to perform this ability."
     }
   },
   "3b": {"abil_name": "Critical Damage", "required": 8, "prereq": null, "selected": 0, "img":"criticaldamage", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
@@ -74,7 +75,7 @@
   },
   "3c": null,
   "3d": {"abil_name": "Action Boost: Haste", "required": 8, "prereq": null, "selected": 0, "img":"actionboost_haste", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 30secs) +20% action boost attack speed bonus for 20 seconds.", 
+      "1": "(Cooldown: 30secs) +20% action boost attack speed bonus for 20 seconds (This ability cannot be taken if you have Action Boost Haste as a class enhancement, and it shares a cooldown with all other action boosts).", 
       "2": "(Cooldown: 30secs) +25% action boost attack speed bonus for 20 seconds.",
       "3": "(Cooldown: 30secs) +30% action boost attack speed bonus for 20 seconds."
     }
@@ -88,15 +89,15 @@
     }
   },
   "4b": {"abil_name": "Volcano&rsquo;s Edge", "required": 12, "prereq": null, "selected": 0, "img":"volcanosedge", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
-      "1": "(Cooldown: 12secs) Melee attack: On hit: 100 fire damage. On critical, target takes incineration damage. On Vorpal, target fire vulnerability increased by 100% for 10 seconds. Require kama, knife, sickle or sword to be equipped in your main hand."
+      "1": "(Cooldown: 12secs) Melee Attack On Hit 100 Fire damage. On Critical Target takes Magma Surge damage. On Vorpal target takes 10d100 Fire damage. Requires a Dagger, Kama, Sickle or Sword to be equipped in your main hand."
     }
   },
   "4c": {"abil_name": "Lightning Mace", "required": 12, "prereq": null, "selected": 0, "img":"lightningmace", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
-      "1": "(Cooldown: 12secs) Melee attack attack: On hit: 100 electrical damage. On critical: gain 15% melee double strike for 6 seconds. On vorpal target elecrtical vulnerability increased by 100%. Requires a club, greatclub, mace, morningstar or quaterstaff to be equipped in your main hand."
+      "1": "(Cooldown: 12secs) Melee Attack On Hit 100 Electrical damage. On Critical Gain +15% enhancement bonus to melee double strike for 6 seconds. On Vorpal Target's takes 10d100 Electrical damage. Requires a Club, Greatclub, Heavy Mace, Light Mace, Morningstar, or Quarterstaff to be equipped in your main hand."
     }
   },
   "4d": {"abil_name": "Anvil of Thunder", "required": 12, "prereq": null, "selected": 0, "img":"anvilofthunder", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
-      "1": "(Cooldown: 12secs) Melee attack attack: On Hit: 100 sonic damage. On critical: Target is dazed for 6 seconds. On Vorpal: Target is stunned for 6 seconds. Requires an axe, hammer or pick to be equipped in your main hand."
+      "1": "(Cooldown: 12secs) Melee Attack On Hit 100 Sonic damage. On Critical Target is stunned for 6 seconds. On Vorpal Take takes 10d100 Sonic damage. Requires a Dwarven Waraxe, Greataxe, Battleaxe, Handaxe, Warhammer, Maul, Light Pick or Heavy Pick to be equipped in your main hand."
     }
   },
   "4e": {"abil_name": "Strength or Constitution", "required": 12, "prereq": null, "selected": 0, "img":"strcon", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
@@ -123,7 +124,7 @@
   },
   "6b": null,
   "6c": {"abil_name": "Pulverizer", "required": 20, "prereq": null, "selected": 0, "img":"pulverizer", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
-      "1": "Increases critical threat range of bludgeoning weapons you equip by 1."
+      "1": "Increases critical threat range of bludgeoning weapons you equip by 1.  Does not work with Handwraps."
     }
   },
   "6d": {"abil_name": "Headman&rsquo;s Chop", "required": 20, "prereq": "5d", "selected": 0, "img":"headmanschop", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {

@@ -1,6 +1,7 @@
 {
   "dID": "base_base",
   "name": "Base Base",
+  "points_remaining": 24,
   "points_spent": 0,
   "autogrants": [
       {"abil_name":"", "img":"", "abil": "", "passive": false},

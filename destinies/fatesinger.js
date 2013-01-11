@@ -1,6 +1,7 @@
 {
   "dID": "fatesinger",
   "name": "Fatesinger",
+  "points_remaining": 24,
   "points_spent": 0,
   "autogrants": [
       {"abil_name":"Fatesinger&rsquo;s Repertoire", "img":"fatesingersrepertoire-taken", "abil": "For every level of Fatesinger, gain 2 Songs, +3 sonic resistance and 25 Spell Points. If you didn&rsquo;t have inspire courage gain that feat. You also gain +1 effective Arcane caster level.", "passive": false},

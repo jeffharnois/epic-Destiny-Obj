@@ -1,6 +1,7 @@
 {
   "dID": "draconic_incarnation",
   "name": "Draconic Incarnation",
+  "points_remaining": 24,
   "points_spent": 0,
   "autogrants": [
       {"abil_name":"Draconic Bloodline I", "img":"bloodline", "abil": "+50 SP +1 caster level to all arcane spell", "passive": "passive"},

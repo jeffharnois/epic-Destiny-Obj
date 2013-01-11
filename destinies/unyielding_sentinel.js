@@ -1,6 +1,7 @@
 {
   "dID": "unyielding_sentinel",
   "name": "Unyielding Sentienel",
+  "points_remaining": 24,
   "points_spent": 0,
   "autogrants": [
       {"abil_name":"Vigor of Battle", "img":"vigorofbattle", "abil": "+50 hp. Sentinel stance (Active Cooldown: 20secs): 10% healing amp and +50 hp. Enemies you hit gain healing touch for 3 seconds: grants 10 temporary HP to targets they attack.", "passive": false},
@@ -27,7 +28,7 @@
   },
   "1d": {"abil_name": "Shield Prowess", "required": 0, "prereq": null, "selected": 0, "img":"shieldprowess", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Shield AC contribution increased by 15% ", 
-      "2": "",
+      "2": "Shield AC contribution increased by 30%",
       "3": "Shield AC contribution increased by 50%"
     }
   },
@@ -102,15 +103,15 @@
   },
   "5a": {"abil_name": "Hardened", "required": 16, "prereq": null, "selected": 0, "img":"hardened", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+3 AC", 
-      "2": "",
-      "3": ""
+      "2": "+6 AC",
+      "3": "+9 AC"
     }
   },
   "5b": null,
   "5c": {"abil_name": "Ward Against Evil", "required": 16, "prereq": null, "selected": 0, "img":"wardagainstevil", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "When you are hit or miss by evil attackers, you have 20% chance to deal 3d6.", 
-      "2": "",
-      "3": ""
+      "2": "When you are hit or miss by evil attackers, you have 20% chance to deal 6d6.",
+      "3": "When you are hit or miss by evil attackers, you have 20% chance to deal 10d6."
     }
   },
   "5d": {"abil_name": "Anoint weapon", "required": 16, "prereq": "4d,5c", "selected": 0, "img":"annointweapon", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
@@ -124,7 +125,7 @@
   "6a": null,
   "6b": null,
   "6c": {"abil_name": "Undying Vanguard", "required": 20, "prereq": null, "selected": 0, "img":"undyingvanguard", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
-      "1": "(Cooldown: 5mins) Heal yourself for 1000HP. For 20 seconds you gain 10000 temporary HP. Requires 1000 stacks of Unyielding Resolve and expands all stacks. You gain one stack of Unyielding Resolve whenever you are hit or missed, physically or magically."
+      "1": "(Cooldown: 5mins) Heal yourself for 1000HP. For 20 seconds you gain 10000 temporary HP. Requires 200 stacks of Unyielding Resolve and expands all stacks. You gain one stack of Unyielding Resolve whenever you are hit or missed, physically or magically."
     }
   },
   "6d": null,

@@ -1,6 +1,7 @@
 {
   "dID": "magister",
   "name": "Magister",
+  "points_remaining": 24,
   "points_spent": 0,
   "autogrants": [
       {"abil_name":"Arcane Study I", "img":"arcanestudy_i", "abil": "+50 SP +1 caster level to all arcane spell", "passive": "passive"},
@@ -11,9 +12,9 @@
       {"abil_name":"Arcane Spellsurge", "img":"arcanespellsurge-taken", "abil": "(level 5) (Cooldown: 4 mins) +5 to all spell DCs for 20 seconds.", "passive": false}
   ],
   "1a": {"abil_name": "Sigil of Warding", "required": 0, "prereq": null, "selected": 0, "img":"sigil_spellwarding", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants 1DR/- and 5 Physical Resistance Rating. Only one sigil active per caster.", 
-      "2": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants 2DR/- and 10 Physical Resistance Rating. Only one sigil active per caster.",
-      "3": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants 3DR/- and 15 Physical Resistance Rating. Only one sigil active per caster."
+      "1": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants 1 AC and 5 Physical Resistance Rating. Only one sigil active per caster.", 
+      "2": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants 2 AC and 10 Physical Resistance Rating. Only one sigil active per caster.",
+      "3": "(Cooldown: 30 secs) Inscribes a sigil for 60 seconds. Grants 3 AC and 15 Physical Resistance Rating. Only one sigil active per caster."
     }
   },
   "1b": {"abil_name": "Imperceptible Casting", "required": 0, "prereq": null, "selected": 0, "img":"imperceptiblecasting", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
@@ -23,13 +24,13 @@
   "1c": {"abil_name": "Unearthly Reactions", "required": 0, "prereq": null, "selected": 0, "img":"unearthlyreactions", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+1 dodge, +2 reflex", 
       "2": "+2 dodge, +4 reflex",
-      "3": "+3 dodge, +6 reflex"
+      "3": "+3 dodge, +6 reflex.  When you tumble, you will phase out from reality briefly, passing through enemies as you do so."
     }
   },
   "1d": {"abil_name": "Impregnable Mind", "required": 0, "prereq": null, "selected": 0, "img":"impregnablemind", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+2 concentration, +2 will", 
       "2": "+4 concentration, +4 will",
-      "3": "+6 concentration, +6 will"
+      "3": "+6 concentration, +6 will.  No longer automatically fail will saves on a roll of a 1"
     }
   },
   "1e": {"abil_name": "Intelligence or Charisma", "required": 0, "prereq": null, "selected": 0, "img":"chaint", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
@@ -92,13 +93,13 @@
     }
   },
   "4b": {"abil_name": "Nullmagic Guard", "required": 12, "prereq": null, "selected": 0, "img":"nullmagic_guard", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
-      "1": "When you take damage, there is a 3% chance that a burst of antimagic energy expands from your body. Nearby enemies are subject to a Dispel Magic effect, which may strip them of their magical protections, and will render them unable to cast spells and lose 3 Spell Resistance for 10 seconds. ", 
+      "1": "When you take damage, there is a 3% chance that a burst of antimagic energy expands from your body. Nearby enemies are subject to a Dispel Magic effect, which may strip them of their magical protections, and will render them unable to cast spells and lose 2 Spell Resistance for 10 seconds. ", 
       "2": "When you take damage, there is a 4% chance that a burst of antimagic energy expands from your body. Nearby enemies are subject to a Dispel Magic effect, which may strip them of their magical protections, and will render them unable to cast spells and lose 3 Spell Resistance for 20 seconds. ",
       "3": "When you take damage, there is a 6% chance that a burst of antimagic energy expands from your body. Nearby enemies are subject to a Dispel Magic effect, which may strip them of their magical protections, and will render them unable to cast spells and lose 4 Spell Resistance for 30 seconds. "
     }
   },
   "4c": {"abil_name": "Call Kindred Being", "required": 12, "prereq": "4d", "selected": 0, "img":"summon_school", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
-      "1": "Summon an epic creature to aid you (creature type depends on school familiarity) "
+      "1": "Summon an epic creature to aid you.  Abjuration summons an Animated Armor, Conjuration summons a Golem, Enchantment summons a Succubus, Evocation summons a Living Meteor Swarm, Illusion summons a Dream Reaver, Necromancy summons a Lich, Transmutation summons a Gargoyle."
     }
   },
   "4d": {"abil_name": "Spell School Familiarity", "required": 12, "prereq": "3d", "selected": 0, "img":"familiarity_school", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
@@ -133,7 +134,7 @@
     }
   },
   "6a": {"abil_name": "Arcane Tempest", "required": 20, "prereq": "4a", "selected": 0, "img":"arcanetempest", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
-      "1": "(Cooldown: 3mins) AoE that deals 2d6 damage per caster level each 2 seconds for 8 seconds"
+      "1": "(Cooldown: 3mins) AoE that deals 2d6 damage per caster level each 2 seconds for 8 seconds.  (Reflex save)."
     }
   },
   "6b": {"abil_name": "Nullmagic Aura", "required": 20, "prereq": "5b", "selected": 0, "img":"nullmagic_aura", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
@@ -142,7 +143,7 @@
   },
   "6c": null,
   "6d": {"abil_name": "Arcane Adept", "required": 20, "prereq": null, "selected": 0, "img":"arcaneadept", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
-      "1": "All spells can be cast with 5% fewer spell points"
+      "1": "All spells can be cast with 10% fewer spell points"
     }
   },
   "6e": {"abil_name": "Intelligence or Charisma", "required": 20, "prereq": null, "selected": 0, "img":"chaint", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {

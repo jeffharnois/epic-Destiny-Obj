@@ -1,6 +1,7 @@
 {
   "dID": "fury_of_the_wild",
   "name": "Fury of the Wild",
+  "points_remaining": 24,
   "points_spent": 0,
   "autogrants": [
       {"abil_name":"Adrenaline", "img":"adrenaline-taken", "abil": "(Cooldown: 5secs) You gain +1 damage per level of Fury of the Wild. Gain 2 Adrenaline uses per raged until your next attack. Your next attack deals +300% damage and increases your critical threat range by 2. You are considered raged until your next attack.", "passive": false},
@@ -40,14 +41,14 @@
   },
   "2a": {"abil_name": "Injury", "required": 4, "prereq": null, "selected": 0, "img":"injury", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "While you are injured, enemies you damage in melee are shaken.", 
-      "2": "",
-      "3": ""
+      "2": "When you're below 70% of your hit points enemies receive a bleed proc for 1d10 damage every 2 seconds for 10 seconds.",
+      "3": "When you are below 30% hit points, you have a 10% chance of paralyzing your enemies for 5 seconds."
     }
   },
   "2b": {"abil_name": "Unstoppable Fury", "required": 4, "prereq": null, "selected": 0, "img":"unstoppablefury", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "While raged, when you miss with a melee attack, gain +1 attack for 20s. Can stack 3 times. Only loses 1 stack each 20s.", 
-      "2": "",
-      "3": ""
+      "2": "While raged, when you miss with a melee attack, gain +2 attack for 20s. Can stack 3 times. Only loses 1 stack each 20s.",
+      "3": "While raged, when you miss with a melee attack, gain +3 attack for 20s. Can stack 3 times. Only loses 1 stack each 20s."
     }
   },
   "2c": {"abil_name": "Acute Instincts", "required": 4, "prereq": null, "selected": 0, "img":"acuteinstincts", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {

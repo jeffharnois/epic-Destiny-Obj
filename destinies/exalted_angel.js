@@ -1,6 +1,7 @@
 {
   "dID": "exalted_angel",
   "name": "Exalted Angel",
+  "points_remaining": 24,
   "points_spent": 0,
   "autogrants": [
       {"abil_name":"Celestial Destiny", "img":"celestialdestiny", "abil": "Gain 50 sp. Each additional level of Exalted Angel grants 50 sp and +1 to Cleric, Paladin and Favored Soul caster levels. The Renewal ability can now target yourself instead of only allies.", "passive": "passive"},

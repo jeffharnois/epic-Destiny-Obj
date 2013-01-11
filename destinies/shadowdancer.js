@@ -1,6 +1,7 @@
 {
   "dID": "shadowdancer",
   "name": "Shadowdancer",
+  "points_remaining": 24,
   "points_spent": 0,
   "autogrants": [
       {"abil_name":"Shadow Training I", "img":"shadowtraining_i", "abil": "+1 sneak die for each level of Shadowdancer", "passive": "passive"},
@@ -17,9 +18,9 @@
     }
   },
   "1b": {"abil_name": "Shadow Lance", "required": 0, "prereq": null, "selected": 0, "img":"shadowlance", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 30secs) Throws 3 spears, each dealing 6d6 unholy damage and has a chance to blind target (Fort DC 14 + Half character level + Intelligence modifier) if you have Dark Shrouding charges.", 
-      "2": "",
-      "3": ""
+      "1": "(Cooldown: 30secs) Throws 3 spears, each dealing 6d3+18 unholy damage and has a chance to blind target (Fort DC 14 + Half character level + Intelligence modifier) if you have Dark Shrouding charges.", 
+      "2": "(Cooldown: 30secs) Throws 3 spears, each dealing 8d3+24 unholy damage and has a chance to blind target (Fort DC 16 + Half character level + Intelligence modifier) if you have Dark Shrouding charges.",
+      "3": "(Cooldown: 30secs) Throws 3 spears, each dealing 10d3+3 unholy damage and has a chance to blind target (Fort DC 18 + Half character level + Intelligence modifier) if you have Dark Shrouding charges."
     }
   },
   "1c": {"abil_name": "Acrobatic", "required": 0, "prereq": null, "selected": 0, "img":"acrobatic", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
@@ -62,15 +63,15 @@
     }
   },
   "3b": {"abil_name": "Shrouding Strike/Shot", "required": 8, "prereq": null, "selected": 0, "img":"darkshrouding", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 15secs) Melee or ranged attack: Perform an attack with +1[W] damage. On hit: Mark target. It if dies within the next 6 seconds, gain a Shadow Charge. Max +3 stacks of Shadow Charge (at this tier).", 
-      "2": "(Cooldown: 15secs) Melee or ranged attack: Perform an attack with +1[W] damage. On hit: Mark target. It if dies within the next 6 seconds, gain a Shadow Charge. Max +5 stacks of Shadow Charge (at this tier).",
-      "3": "(Cooldown: 15secs) Melee or ranged attack: Perform an attack with +1[W] damage. On hit: Mark target. It if dies within the next 6 seconds, gain a Shadow Charge. Max +7 stacks of Shadow Charge (at this tier)."
+      "1": "(Cooldown: 15secs) Melee or ranged attack: Perform an attack with +1[W] damage. On hit: Mark target. It if dies within the next 6 seconds, gain a Shadow Charge. Max +2 stacks of Shadow Charge (at this tier).", 
+      "2": "(Cooldown: 15secs) Melee or ranged attack: Perform an attack with +2[W] damage. On hit: Mark target. It if dies within the next 8 seconds, gain a Shadow Charge. Max +4 stacks of Shadow Charge (at this tier).",
+      "3": "(Cooldown: 15secs) Melee or ranged attack: Perform an attack with +3[W] damage. On hit: Mark target. It if dies within the next 10 seconds, gain a Shadow Charge. Max +6 stacks of Shadow Charge (at this tier)."
     }
   },
   "3c": {"abil_name": "Meld Into Darkness", "required": 8, "prereq": null, "selected": 0, "img":"meldintoshadow", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 2min) +100% Enhancement bonus to dodge for 6 seconds.", 
-      "2": "",
-      "3": ""
+      "1": "(Cooldown: 2min) +100% Enhancement bonus to dodge for 9 seconds.", 
+      "2": "(Cooldown: 2min) +100% Enhancement bonus to dodge for 12 seconds.",
+      "3": "(Cooldown: 2min) +100% Enhancement bonus to dodge for 15 seconds."
     }
   },
   "3d": {"abil_name": "Grim Precision", "required": 8, "prereq": null, "selected": 0, "img":"grimprecision", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
@@ -85,8 +86,8 @@
   },
   "4a": null,
   "4b": {"abil_name": "Improved Invisibility", "required": 12, "prereq": "3b", "selected": 0, "img":"improvedinvis", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 4min) Turn invisible for 10 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 1min30).", 
-      "2": "(Cooldown: 4min) Turn invisible for 20 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 1min30).",
+      "1": "(Cooldown: 4min) Turn invisible for 10 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 30secs).", 
+      "2": "(Cooldown: 4min) Turn invisible for 20 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 1min).",
       "3": "(Cooldown: 4min) Turn invisible for 30 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 1min30)."
     }
   },
@@ -108,9 +109,9 @@
     }
   },
   "5c": {"abil_name": "Executioner&rsquo;s Strike/Shot", "required": 16, "prereq": null, "selected": 0, "img":"executionersstrike", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
-      "1": "(Cooldown: 30secs) Melee or ranged attack: Perform an attack with +1[W] damage, +1 critical threat range and +1 critical damage multiplier. On hit: if you have Shadow Charges, this attack has a chance to kill a living target instantly (fort save DC 14 + character level + dex modifier). Even on successful save target takes an additional 75 damage from this attack. The chance to occur is higher the more Shadow Charges you have.",
-      "2": "",
-      "3": ""
+      "1": "(Cooldown: 30secs) Melee or ranged attack: Perform an attack with +1[W] damage, +1 critical threat range and +1 critical damage multiplier. On hit: if you have Shadow Charges, this attack has a chance to kill a living target instantly (fort save DC 14 + character level + dex modifier). Even on successful save target takes an additional 50 damage from this attack. The chance to occur is higher the more Shadow Charges you have.",
+      "2": "(Cooldown: 30secs) Melee or ranged attack: Perform an attack with +2[W] damage, +1 critical threat range and +1 critical damage multiplier. On hit: if you have Shadow Charges, this attack has a chance to kill a living target instantly (fort save DC 14 + character level + dex modifier). Even on successful save target takes an additional 75 damage from this attack. The chance to occur is higher the more Shadow Charges you have.",
+      "3": "(Cooldown: 30secs) Melee or ranged attack: Perform an attack with +3[W] damage, +1 critical threat range and +1 critical damage multiplier. On hit: if you have Shadow Charges, this attack has a chance to kill a living target instantly (fort save DC 14 + character level + dex modifier). Even on successful save target takes an additional 100 damage from this attack. The chance to occur is higher the more Shadow Charges you have."
     }
   },
   "5d": {"abil_name": "Sealed Soul", "required": 16, "prereq": null, "selected": 0, "img":"sealedsoul", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
@@ -129,7 +130,7 @@
       "1": "(Cooldown: 1min) Spend a shadow charge to gain 25% incorporeality (and ignore incorporeal miss chance), float as if affected by featherfall, have bonuses to hide and move silently and deal strength damage on all melee and ranged attacks. You also take double damage from light effects."
     }
   },
-  "6c": {"abil_name": "Oncoming Darkness", "required": 20, "prereq": "6b", "selected": 0, "img":"darkimbuement", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6c": {"abil_name": "Dark Imbuement", "required": 20, "prereq": "6b", "selected": 0, "img":"darkimbuement", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 4min) Each time an enemy affected by your Dark Shrouding mark dies, you gain 1 charge. When you have accumulated 20 of these charges, you can expend them to enchant your melee and ranged attacks with shadowy energy. You deal an extra 2d6 unholy damage with every strike, the effective range of your melee attacks increases dramatically, and your ranged attacks have a 30% chance to explode, dealing 10d6 unholy damage to all enemies in a large radius around your target."
     }
   },

@@ -1,6 +1,7 @@
 {
   "dID": "grandmaster_of_flowers",
   "name": "Grandmaster of Flowers",
+  "points_remaining": 24,
   "points_spent": 0,
   "autogrants": [
       {"abil_name":"Inner Focus", "img":"innerfocus-taken", "abil": "(Cooldown: 5 mins) Instantly restore 25-125 Ki. (Passive): You gain +10 maximum ki and +1 stacking spell resistance, and an additional +10 maximum ki and +1 stacking spell resistance for each level of Grandmaster of Flowers you have, to a maximum of +60ki and +6 SR)", "passive": false},
@@ -49,7 +50,7 @@
       "3": "+9 stacking spell resistance "
     }
   },
-  "2d": {"abil_name": "Hail of Blows", "required": 4, "prereq": "1d", "selected": 0, "img":"improvedflurryofblows", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "2d": {"abil_name": "Hail of Blows", "required": 4, "prereq": "1d", "selected": 0, "img":"improvedflurryofblows", "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
       "1": "+3% chance to doublestrike on melee attacks ", 
       "2": "+6% chance to doublestrike on melee attacks ",
       "3": "+9% chance to doublestrike on melee attacks "
@@ -73,7 +74,7 @@
       "1": "Toggle. Immune to falling damage; gain feather fall."
     }
   },
-  "3d": {"abil_name": "Perfection of Body", "required": 8, "prereq": null, "selected": 0, "img":"perfectionofbody", "multi": false, "passive": "passive", "ranks": 3, "AP": 2, "abil": {
+  "3d": {"abil_name": "Perfection of Body", "required": 8, "prereq": null, "selected": 0, "img":"perfectionofbody", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+2 To fortitude save, and you no longer automatically fail a saving through against Disease on a 1.", 
       "2": "+4 To fortitude save. Additional +4 against disease, poison and nausea",
       "3": "+6 To fortitude save. Additional +6 against disease, poison and nausea"
@@ -126,7 +127,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "6a": {"abil_name": "A Scattering of Petals", "required": 20, "prereq": "5a", "selected": 0, "img":"scatteringofpetals", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6a": {"abil_name": "A Scattering of Petals", "required": 20, "prereq": "5a", "selected": 0, "img":"scatteringofpetals", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "(Cooldown: 1 min) Nearby enemies must make a fortitude save (DC 20 + character level + 1/2 wis mod) or become blinded. For the next 12 seconds, gain +25% dodge. Cost: 30 Ki."
     }
   },
