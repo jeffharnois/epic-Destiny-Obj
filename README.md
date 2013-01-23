@@ -20,6 +20,8 @@ object structure is currently:
 
 "abil_name" is the name of the ability.
 
+"required_by" is which abilities have this as a prereq.  This is used for validation when subtracting points. 
+
 "required" is how many points spent in the tree are required.
 
 "prereq" is an object ({"req":"1a","tier":"1"}) that is required to take that ability ("null" if nothing is required), required ID and tier if there is something required.
