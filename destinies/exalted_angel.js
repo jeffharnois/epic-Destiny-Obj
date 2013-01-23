@@ -15,7 +15,7 @@
       "1": "(Cooldown: 3secs) Deals 1d4+4 light damage + 1d4+4 per three character level to 1 target. Fortitude save (DC 10+ character level + charisma mod) for half"
     }
   },
-  "1b": {"abil_name": "Radiant Power", "required_by": null, "required": 0, "prereq": null, "selected": 0, "img":"radiantpower", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "1b": {"abil_name": "Radiant Power", "required_by": ["1c","2b"], "required": 0, "prereq": null, "selected": 0, "img":"radiantpower", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+10 Light spellpower", 
       "2": "+20 Light spellpower", 
       "3": "+30 Light spellpower"
@@ -27,7 +27,7 @@
       "3": " Spell point pool increased by 10%. Echoes of power restore up to 30 sp."
     }
   },
-  "1d": {"abil_name": "Healing Power", "required_by": null, "required": 0, "prereq": null, "selected": 0, "img":"healingpower", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "1d": {"abil_name": "Healing Power", "required_by": ["1c","3d"], "required": 0, "prereq": null, "selected": 0, "img":"healingpower", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+10 Positive energy spellpower", 
       "2": "+20 Positive energy spellpower", 
       "3": "+30 Positive energy spellpower"
@@ -37,7 +37,7 @@
       "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
     }
   },
-  "2a": {"abil_name": "Judgement", "required_by": null, "required": 4, "prereq": null, "selected": 0, "img":"judgement", "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
+  "2a": {"abil_name": "Judgement", "required_by": ["3a"], "required": 4, "prereq": null, "selected": 0, "img":"judgement", "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 15secs, 10sp) Target undead or evil outsider will explode when killed, dealing 10d100 light damage to other undead or evil outsiders near them"
     }
   },
@@ -53,7 +53,7 @@
         "1": {"1": "+1 Wisdom", "2": "+1 Charisma"}
       }
     },
-  "3a": {"abil_name": "Lay To Rest", "required_by": null, "required": "8", "prereq": "2a", "selected": 0, "img":"laytorest", "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
+  "3a": {"abil_name": "Lay To Rest", "required_by": ["4a"], "required": "8", "prereq": "2a", "selected": 0, "img":"laytorest", "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 15secs, 10sp) Target undead or evil outsider under the effect of Judgement takes 10d100 light damage"
     }
   },
@@ -61,7 +61,7 @@
       "1": "(Cooldown: 15secs, 10sp) Melee smite. Gain twice your charisma bonus to your attack roll and damage bonus of (level x3) +7 against evil opponents. On hit: 50 light damage against undead and evil outsiders. On Natural 20 and confirmed crit, destroy undead or evil outsiders under 1000HP"
     }
   },
-  "3c": {"abil_name": "Renewal", "required_by": null, "required": "8", "prereq": null, "selected": 0, "img":"mend", "multi": false, "passive":false, "ranks": 3, "AP": 1, "abil": {
+  "3c": {"abil_name": "Renewal", "required_by": ["3d"], "required": "8", "prereq": null, "selected": 0, "img":"mend", "multi": false, "passive":false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 3secs, 5sp) Heals 1d2 HP per 4 character levels every 2 seconds for 8 seconds. If target is below 50% health, grants celestial shield, which absorbs 30 damage.", 
       "2": "(Cooldown: 3secs, 5sp) Heals 1d2 HP per 3 character levels every 2 seconds for 8 seconds. If target is below 50% health, grants celestial shield, which absorbs 40 damage.", 
       "3": "(Cooldown: 3secs, 5sp) Heals 1d2 HP per 2 character levels every 2 seconds for 8 seconds. If target is below 50% health, grants celestial shield, which absorbs 50 damage."
@@ -81,17 +81,17 @@
       "1": "Undead or evil outsiders judged gain &ldquo;Guilt by association&rdquo;. When target with guilt dies, any undead or outsiders caught in the area have 50% chance to receive judgement"
     }
   },
-  "4b": {"abil_name": "Rebuke Foe", "required_by": null, "required": "12", "prereq": "4c", "selected": 0, "img":"rebukefoe", "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
+  "4b": {"abil_name": "Rebuke Foe", "required_by": ["6b"], "required": "12", "prereq": "4c", "selected": 0, "img":"rebukefoe", "multi": false, "passive":false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 3secs) Only usable when Endless Ardor stack >=5. Target enemy tales 5% additional damage from physical and light damage for 30 seconds. Can stack up to 5 times, new stacks add 30 seconds to remaining duration. Endless Ardor stacks reset to zero."
     }
   },
-  "4c": {"abil_name": "Blood And Radiance", "required_by": null, "required": "12", "prereq": null, "selected": 0, "img":"bloodandradiance", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "4c": {"abil_name": "Blood And Radiance", "required_by": ["4b", "4d", "6c"], "required": "12", "prereq": null, "selected": 0, "img":"bloodandradiance", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Each time you cast a light based spell, you gain Endless Ardor: +1 sacred bonus to positive energy for 10 seconds. Each time you cast a positive energy spell, gain righteous fervor: +1 sacred bonus to light spellpower for 10 seconds. Can stack up to 10 times. Each stack add 10 seconds to remaining duration.", 
       "2": "",
       "3": ""
     }
   },
-  "4d": {"abil_name": "Excoriate", "required_by": null, "required": "12", "prereq": "4c", "selected": 0, "img":"excoriate", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "4d": {"abil_name": "Excoriate", "required_by": ["6d"], "required": "12", "prereq": "4c", "selected": 0, "img":"excoriate", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "When your Righteous Fervor stack is >=5, your light spells and smites have a 3% chance to stun opponents for 6 seconds"
     }
   },

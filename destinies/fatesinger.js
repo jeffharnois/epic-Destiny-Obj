@@ -11,13 +11,13 @@
       {"abil_name":"Grandeur", "img":"grandeur-taken", "abil": "(level 4) Gain +1 to your effective Arcane caster level. Special Effect: As long as you are above 10% Health, you project an Aura of Grandeur. This aura grants you and your friends a +1 to all saving throws, a +2 to all Charisma-based skills, and a +3 Unique bonus to damage.", "passive": "passive"},
       {"abil_name":"Majesty", "img":"majesty", "abil": "(level 5) Passive: +1 to your effective Arcane caster level and a +1 to hit. You also gain +5 to all saving throws vs enchantments, a +2 to the effective level of your Enchantment/Charm spells and a +10 to the Spell Power of your Sonic, Light and Positive spells. Special Effect: Enemies that strike you also have a 5% chance to become blinded by your glory (in addition to other effects), with no saving throw.", "passive": "passive"}
   ],
-  "1a": {"abil_name": "O Fortuna", "required_by": null, "required": 0, "prereq": null, "selected": 0, "img":"ofortuna", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "1a": {"abil_name": "O Fortuna", "required_by": ["2a"], "required": 0, "prereq": null, "selected": 0, "img":"ofortuna", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Inspire courage gives +1 fortitude and reflex saves", 
       "2": "Inspire courage gives +2 fortitude and reflex saves",
       "3": "Inspire courage gives +3 fortitude and reflex saves"
     }
   },
-  "1b": {"abil_name": "Allure", "required_by": null, "required": 0, "prereq": null, "selected": 0, "img":"allure", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "1b": {"abil_name": "Allure", "required_by": ["2b"], "required": 0, "prereq": null, "selected": 0, "img":"allure", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+2 to haggle, perform and bluff and an extra song per rest.", 
       "2": "+4 to haggle, perform and bluff and an 2 extra songs per rest.",
       "3": "+6 to haggle, perform and bluff and an 3 extra songs per rest."
@@ -59,7 +59,7 @@
       "1": {"1": "+1 Charisma", "2": "+1 Strength"}
     }
   },
-  "3a": {"abil_name": "Siren&rsquo;s Song", "required_by": null, "required": 8, "prereq": null, "selected": 0, "img":"sirenssong", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "3a": {"abil_name": "Siren&rsquo;s Song", "required_by": ["4a"], "required": 8, "prereq": null, "selected": 0, "img":"sirenssong", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 60secs)Unbreakable mez on a single target and deals 2 constitution damage every 3 seconds. Duration 12 seconds.", 
       "2": "(Cooldown: 50secs)Unbreakable mez on a single target and deals 2 constitution damage every 2 seconds. Duration 12 seconds.",
       "3": "(Cooldown: 40secs)Unbreakable mez on a single target and deals 2 constitution damage every 1 seconds. Duration 12 seconds."
@@ -107,7 +107,7 @@
       "1": {"1": "+1 Charisma", "2": "+1 Strength"}
     }
   },
-  "5a": {"abil_name": "Bound Fate", "required_by": null, "required": 16, "prereq": null, "selected": 0, "img":"boundfate", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "5a": {"abil_name": "Bound Fate", "required_by": ["6a"], "required": 16, "prereq": null, "selected": 0, "img":"boundfate", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 4mins) A single target must make a Will save with a DC modified by the caster&rsquo;s Charisma modifier. On a failed save, the target is bound briefly to the spot, and for one minute is also 6% more vulnerable to Sonic, Cold and Electric damage, and has a -6 Spell Resistance. In addition, the creature deals -4 damage on attacks. Instant cast.", 
       "2": "(Cooldown: 4mins) A single target must make a Will save with a DC modified by the caster&rsquo;s Charisma modifier. On a failed save, the target is bound briefly to the spot, and for one minute is also 10% more vulnerable to Sonic, Cold and Electric damage, and has a -10 Spell Resistance. In addition, the creature deals -6 damage on attacks. Instant cast.",
       "3": "(Cooldown: 4mins) A single target must make a Will save with a DC modified by the caster&rsquo;s Charisma modifier. On a failed save, the target is bound briefly to the spot, and for one minute is also 15% more vulnerable to Sonic, Cold and Electric damage, and has a -15 Spell Resistance. In addition, the creature deals -8 damage on attacks. Instant cast."

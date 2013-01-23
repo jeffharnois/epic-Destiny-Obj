@@ -29,7 +29,7 @@
       "3": "+6 balance, jump and tumble and a +9 bonus to reflex while tumbling "
     }
   },
-  "1d": {"abil_name": "Technician", "required_by": null, "required": 0, "prereq": null, "selected": 0, "img":"technician", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "1d": {"abil_name": "Technician", "required_by": ["2d"], "required": 0, "prereq": null, "selected": 0, "img":"technician", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+2 search, spot, disable device, open lock and flanking bonus to attack.", 
       "2": "+4 search, spot, disable device, open lock and flanking bonus to attack.",
       "3": "+6 search, spot, disable device, open lock and flanking bonus to attack."
@@ -62,7 +62,7 @@
       "1": "(Cooldown: 2mins) Spend a Shadow Charge to cloak in darkness, granting immunity to light and negative damage for 5 minutes, or until 120 damage have been absorbed."
     }
   },
-  "3b": {"abil_name": "Shrouding Strike/Shot", "required_by": null, "required": 8, "prereq": null, "selected": 0, "img":"darkshrouding", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "3b": {"abil_name": "Shrouding Strike/Shot", "required_by": ["3a", "4b"], "required": 8, "prereq": null, "selected": 0, "img":"darkshrouding", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 15secs) Melee or ranged attack: Perform an attack with +1[W] damage. On hit: Mark target. It if dies within the next 6 seconds, gain a Shadow Charge. Max +2 stacks of Shadow Charge (at this tier).", 
       "2": "(Cooldown: 15secs) Melee or ranged attack: Perform an attack with +2[W] damage. On hit: Mark target. It if dies within the next 8 seconds, gain a Shadow Charge. Max +4 stacks of Shadow Charge (at this tier).",
       "3": "(Cooldown: 15secs) Melee or ranged attack: Perform an attack with +3[W] damage. On hit: Mark target. It if dies within the next 10 seconds, gain a Shadow Charge. Max +6 stacks of Shadow Charge (at this tier)."
@@ -74,7 +74,7 @@
       "3": "(Cooldown: 2min) +100% Enhancement bonus to dodge for 15 seconds."
     }
   },
-  "3d": {"abil_name": "Grim Precision", "required_by": null, "required": 8, "prereq": null, "selected": 0, "img":"grimprecision", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "3d": {"abil_name": "Grim Precision", "required_by": ["4d"], "required": 8, "prereq": null, "selected": 0, "img":"grimprecision", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Bypass 5% enemy fortification and 1% enemy dodge ", 
       "2": "Bypass 10% enemy fortification and 2% enemy dodge ",
       "3": "Bypass 15% enemy fortification and 3% enemy dodge "
@@ -85,7 +85,7 @@
     }
   },
   "4a": null,
-  "4b": {"abil_name": "Improved Invisibility", "required_by": null, "required": 12, "prereq": "3b", "selected": 0, "img":"improvedinvis", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "4b": {"abil_name": "Improved Invisibility", "required_by": ["5b"], "required": 12, "prereq": "3b", "selected": 0, "img":"improvedinvis", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 4min) Turn invisible for 10 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 30secs).", 
       "2": "(Cooldown: 4min) Turn invisible for 20 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 1min).",
       "3": "(Cooldown: 4min) Turn invisible for 30 seconds. Attacking does not break this effect. After it wears off, you retain partial concealment for a time (grants displacement for 1min30)."
@@ -100,11 +100,11 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Intelligence"}
     }
   },
-  "5a": {"abil_name": "Shadow Manipulation", "required_by": null, "required": 16, "prereq": "3a", "selected": 0, "img":"shadowmanipulation", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "5a": {"abil_name": "Shadow Manipulation", "required_by": ["6a"], "required": 16, "prereq": "3a", "selected": 0, "img":"shadowmanipulation", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 2min) Spend a Shadow Charge to dominate the target for 1 minute (DC 14 + character level + int modifier), after which it is subject to instant death if it fails a fort save (DC 14 + character level + Int modifier)."
     }
   },
-  "5b": {"abil_name": "Untouchable", "required_by": null, "required": 16, "prereq": "4b", "selected": 0, "img":"untouchable", "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
+  "5b": {"abil_name": "Untouchable", "required_by": ["6b"], "required": 16, "prereq": "4b", "selected": 0, "img":"untouchable", "multi": false, "passive": "passive", "ranks": 1, "AP": 1, "abil": {
       "1": "Gain 1% extra dodge for each Shadow Charge you hold. "
     }
   },
@@ -126,7 +126,7 @@
       "1": "(Cooldown: 2min) Spend a Shadow Charge to crate a field around you for 10 seconds. Every 2 seconds the aura causes one nearby corporal enemy to be devoured by its own shadow and die (save negates), or take 80-120 damage. You are free to perform other action while the aura is active."
     }
   },
-  "6b": {"abil_name": "Shadow Form", "required_by": null, "required": 20, "prereq": "5b", "selected": 0, "img":"shadowform", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "6b": {"abil_name": "Shadow Form", "required_by": ["6c"], "required": 20, "prereq": "5b", "selected": 0, "img":"shadowform", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 1min) Spend a shadow charge to gain 25% incorporeality (and ignore incorporeal miss chance), float as if affected by featherfall, have bonuses to hide and move silently and deal strength damage on all melee and ranged attacks. You also take double damage from light effects."
     }
   },

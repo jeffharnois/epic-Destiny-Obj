@@ -22,7 +22,7 @@
       "3": "(Cooldown: 15secs) Toss daggers in a wide arc in front you, each dealing 20d20 piercing damage"
     }
   },
-  "1c": {"abil_name": "Healing Spring", "required_by": null, "required": 0, "prereq": null, "selected": 0, "img":"healingspring", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "1c": {"abil_name": "Healing Spring", "required_by": ["1d", "2c"], "required": 0, "prereq": null, "selected": 0, "img":"healingspring", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 30secs) Nearby allies heal 1d100 positive energy every 60 seconds for five minutes. Usable once per day",
       "2": "(Cooldown: 30secs) Nearby allies heal 1d100 positive energy every 40 seconds for five minutes. Usable once per day",
       "3": "(Cooldown: 30secs) Nearby allies heal 1d100 positive energy every 20 seconds for five minutes. Usable once per day"
@@ -38,7 +38,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "2a": {"abil_name": "Prism", "required_by": null, "required": 4, "prereq": null, "selected": 0, "img":"prism", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
+  "2a": {"abil_name": "Prism", "required_by": ["3a"], "required": 4, "prereq": null, "selected": 0, "img":"prism", "multi": false, "passive": false, "ranks": 1, "AP": 2, "abil": {
       "1": "(Cooldown: 5secs) Wild hunter stance: Ranged and thrown attacks and offensive spells have a 7% chance to deal 2d20 damage to a random ability score"
     }
   },
@@ -53,7 +53,7 @@
       "3": "Healing spring additionally grants DR 6/Cold iron and stacking 6 spellpower to nearby allies. 1 extra use of healing spring per day"
     }
   },
-  "2d": {"abil_name": "Fey Form", "required_by": null, "required": 4, "prereq": null, "selected": 0, "img":"feyform", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "2d": {"abil_name": "Fey Form", "required_by": ["2c"], "required": 4, "prereq": null, "selected": 0, "img":"feyform", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Gain DR 3/Cold Iron and +5 Spell Power.",
       "2": "Gain DR 5/Cold Iron and +10 Spell Power.",
       "3": "Gain DR 7/Cold Iron and +15 Spell Power."
@@ -63,7 +63,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "3a": {"abil_name": "Rainbow", "required_by": null, "required": 8, "prereq": "2a", "selected": 0, "img":"rainbow", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "3a": {"abil_name": "Rainbow", "required_by": ["4a"], "required": 8, "prereq": "2a", "selected": 0, "img":"rainbow", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "While in prism stance, your ranged and thrown attacks and offensive spells have a 7% chance to deal 1d100 extra damage of a random type"
     }
   },

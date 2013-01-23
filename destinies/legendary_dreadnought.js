@@ -39,7 +39,7 @@
       "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
-  "2a": {"abil_name": "Momentum Swing", "required_by": null, "required": 4, "prereq": null, "selected": 0, "img":"momentumswing", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
+  "2a": {"abil_name": "Momentum Swing", "required_by": ["3a"], "required": 4, "prereq": null, "selected": 0, "img":"momentumswing", "multi": false, "passive": false, "ranks": 3, "AP": 1, "abil": {
       "1": "(Cooldown: 1min) Perform an attack with +5[W] damage, +1 critical threat range. Cleave attacks have 15% chance to reset the cooldown of this ability (this cannot occur more than once every 3 seconds).  You must have power attack active to perform this ability. ", 
       "2": "(Cooldown: 1min) Perform an attack with +5[W] damage, +2 critical threat range. Cleave attacks have 30% chance to reset the cooldown of this ability (this cannot occur more than once every 3 seconds).",
       "3": "(Cooldown: 1min) Perform an attack with +5[W] damage, +3 critical threat range. Cleave attacks have 50% chance to reset the cooldown of this ability (this cannot occur more than once every 3 seconds)."
@@ -110,7 +110,7 @@
   },
   "5b": null,
   "5c": null,
-  "5d": {"abil_name": "Devastating Critical", "required_by": null, "required": 16, "prereq": null, "selected": 0, "img":"devastatingcritical", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "5d": {"abil_name": "Devastating Critical", "required_by": ["6d"], "required": 16, "prereq": null, "selected": 0, "img":"devastatingcritical", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "+1 critical damage mulitplier on rolls of 19-20 "
     }
   },

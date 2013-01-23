@@ -43,7 +43,7 @@
       "1": {"1": "+1 Strength", "2": "+1 Wisdom"}
     }
   },
-  "2a": {"abil_name": "Seeking Balance", "required_by": null, "required": 4, "prereq": null, "selected": 0, "img":"seekingbalance", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "2a": {"abil_name": "Seeking Balance", "required_by": ["3a"], "required": 4, "prereq": null, "selected": 0, "img":"seekingbalance", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "You gain +1 Reflex Saving Throws, +2 Tumble, and +2 Balance while shapeshifted into an animal form, wielding two weapons, or unarmed. These are Primal bonuses. Skill bonuses required already having at least one rank in the skill.", 
       "2": "You gain +2 Reflex Saving Throws, +4 Tumble, and +4 Balance while shapeshifted into an animal form, wielding two weapons, or unarmed. These are Primal bonuses. Skill bonuses required already having at least one rank in the skill.",
       "3": "You gain +2 Reflex Saving Throws, +4 Tumble, and +4 Balance while shapeshifted into an animal form, wielding two weapons, or unarmed. These are Primal bonuses. Skill bonuses required already having at least one rank in the skill."
@@ -63,7 +63,7 @@
       }
     }
   },
-  "2d": {"abil_name": "Natural Shielding", "required_by": null, "required": 4, "prereq": null, "selected": 0, "img":"naturalshielding", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "2d": {"abil_name": "Natural Shielding", "required_by": ["3d"], "required": 4, "prereq": null, "selected": 0, "img":"naturalshielding", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Your summoned and charmed pets, hirelings, and monsters gain +30 maximum HP and +10 PRR.", 
       "2": "Your summoned and charmed pets, hirelings, and monsters gain +60 maximum HP and +20 PRR.",
       "3": "Your summoned and charmed pets, hirelings, and monsters gain +100 maximum HP and +30 PRR.  In addition, natural creatures you control gain evasion."
@@ -73,7 +73,7 @@
       "1": {"1": "+1 Strength", "2": "+1 Wisdom"}
     }
   },
-  "3a": {"abil_name": "Balanced Attacks", "required_by": null, "required": 8, "prereq": "2a", "selected": 0, "img":"balancedattack", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "3a": {"abil_name": "Balanced Attacks", "required_by": ["4a"], "required": 8, "prereq": "2a", "selected": 0, "img":"balancedattack", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "You gain a +2 Primal bonus to Attack as long as you are shapeshifted into an animal form, wielding two weapons, or unarmed.", 
       "2": "You gain a +4 Primal bonus to Attack as long as you are shapeshifted into an animal form, wielding two weapons, or unarmed.",
       "3": "You gain a +6 Primal bonus to Attack as long as you are shapeshifted into an animal form, wielding two weapons, or unarmed."
@@ -99,7 +99,7 @@
       "1": {"1": "+1 Strength", "2": "+1 Wisdom"}
     }
   },
-  "4a": {"abil_name": "Paired Parry / Symetric Strikes", "required_by": null, "required": 12, "prereq": "3a", "selected": 0, "img":"pp-ss", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "4a": {"abil_name": "Paired Parry / Symetric Strikes", "required_by": ["6a"], "required": 12, "prereq": "3a", "selected": 0, "img":"pp-ss", "multi": "multi", "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": {"1": "Gain +5 AC while in animal form, unarmed, or two-weapon fighting.", "2": "Gain 5% physical damage while in animal form, unarmed, or two-weapon fighting."}
     }
   },

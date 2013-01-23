@@ -39,7 +39,7 @@
       "1": {"1": "+1 Strength", "2": "+1 Constitution"}
     }
   },
-  "2a": {"abil_name": "Injury", "required_by": null, "required": 4, "prereq": null, "selected": 0, "img":"injury", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "2a": {"abil_name": "Injury", "required_by": ["3a"], "required": 4, "prereq": null, "selected": 0, "img":"injury", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "While you are injured, enemies you damage in melee are shaken.", 
       "2": "When you are below 70% of your hit points enemies receive a bleed proc for 1d10 damage every 2 seconds for 10 seconds.",
       "3": "When you are below 30% hit points, you have a 10% chance of paralyzing your enemies for 5 seconds."
@@ -51,7 +51,7 @@
       "3": "While raged, when you miss with a melee attack, gain +3 attack for 20s. Can stack 3 times. Only loses 1 stack each 20s."
     }
   },
-  "2c": {"abil_name": "Acute Instincts", "required_by": null, "required": 4, "prereq": null, "selected": 0, "img":"acuteinstincts", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "2c": {"abil_name": "Acute Instincts", "required_by": ["4c"], "required": 4, "prereq": null, "selected": 0, "img":"acuteinstincts", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "While raged, you gain +2 balance, heal, listen, spot, search, concentration and +1 saves vs. traps.",
       "2": "While raged, you gain +1 wisdom, +4 balance, heal, listen, spot, search, concentration and +2 saves vs. traps.",
       "3": "While raged, you gain +2 wisdom, +6 balance, heal, listen, spot, search, concentration and +3 saves vs. traps."
@@ -71,7 +71,7 @@
       "1": "(Cooldown: 20secs) Your next attack generates triple threat, and for 20 seconds your target gains +2 Strength, +2 constitution and -10 AC, -10 concentration and -20% fortification "
     }
   },
-  "3b": {"abil_name": "Malicious Weapons", "required_by": null, "required": 8, "prereq": null, "selected": 0, "img":"maliciousweapons", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "3b": {"abil_name": "Malicious Weapons", "required_by": ["4b"], "required": 8, "prereq": null, "selected": 0, "img":"maliciousweapons", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+3% chance to trigger weapon effects with glancing blows ", 
       "2": "+6% chance to trigger weapon effects with glancing blows ",
       "3": "+9% chance to trigger weapon effects with glancing blows "

@@ -11,7 +11,7 @@
       {"abil_name":"Ubiquity", "img":"ubiquity", "abil": "(level 4) Tumble allows you to pass through enemies", "passive": "passive"},
       {"abil_name":"Balance in All Things", "img":"immunitytoknockdown", "abil": "(level 5) Immunity to most knockdowns. +1 passive ki regeneration and +1 to the DC of your tactical feats", "passive": "passive"}
   ],
-  "1a": {"abil_name": "Lily Petal", "required_by": null, "required": 0, "prereq": null, "selected": 0, "img":"kiprojection", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
+  "1a": {"abil_name": "Lily Petal", "required_by": ["3a"], "required": 0, "prereq": null, "selected": 0, "img":"kiprojection", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "(Cooldown: 6secs) Project a bolt dealing 80-120 + 8-12 dmg per character level to a target. Cost: 10 Ki."
     }
   },
@@ -27,7 +27,7 @@
       "3": "+15 Ki and +2 concentration. Gain +2 passive ki regeneration."
     }
   },
-  "1d": {"abil_name": "A Dance of Flowers", "required_by": null, "required": 0, "prereq": null, "selected": 0, "img":"improvedmartialarts", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "1d": {"abil_name": "A Dance of Flowers", "required_by": ["2d"], "required": 0, "prereq": null, "selected": 0, "img":"improvedmartialarts", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "+0.5[W] to attacks you make while centered ", 
       "2": "+1[W] to attacks you make while centered ",
       "3": "+1.5[W] to attacks you make while centered "
@@ -60,7 +60,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "3a": {"abil_name": "Orchid Blossom", "required_by": null, "required": 8, "prereq": "1a", "selected": 0, "img":"kiblast", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
+  "3a": {"abil_name": "Orchid Blossom", "required_by": ["5a"], "required": 8, "prereq": "1a", "selected": 0, "img":"kiblast", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "(Cooldown: 12secs) Projects blast of ki. 80-120 +8-12 dmg per character level to enemies in area. Reflex save for half (DC 10 + Character level + 1/2 wis mod). Cost: 20 ki "
     }
   },
@@ -106,7 +106,7 @@
       "1": {"1": "+1 Dexterity", "2": "+1 Wisdom"}
     }
   },
-  "5a": {"abil_name": "Drifting Lotus", "required_by": null, "required": 16, "prereq": "3a", "selected": 0, "img":"kiburst", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
+  "5a": {"abil_name": "Drifting Lotus", "required_by": ["6a"], "required": 16, "prereq": "3a", "selected": 0, "img":"kiburst", "multi": false, "passive": false, "ranks": 1, "AP": 1, "abil": {
       "1": "80 - 120 + 8-12 dmg per character level AoE centered around you. Reflex save (DC 10 + character level + 1/2 wis mod) for half damage. Enemies who fail save are knocked down. Cost: 25ki."
     }
   },

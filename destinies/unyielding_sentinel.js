@@ -26,7 +26,7 @@
       "2": "+40% fortification. +2 reflex/fort/will saves"
     }
   },
-  "1d": {"abil_name": "Shield Prowess", "required_by": null, "required": 0, "prereq": null, "selected": 0, "img":"shieldprowess", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "1d": {"abil_name": "Shield Prowess", "required_by": ["2d"], "required": 0, "prereq": null, "selected": 0, "img":"shieldprowess", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "Shield AC contribution increased by 15% ", 
       "2": "Shield AC contribution increased by 30%",
       "3": "Shield AC contribution increased by 50%"
@@ -93,7 +93,7 @@
       "1": "(Cooldown: 7secs) Expand 1 lay on hands: heals 150HP to allies around you and deals that much damage to nearby undead enemies.  Requires one of: Healing Hands, Lay on Hands."
     }
   },
-  "4d": {"abil_name": "Purify Weapon", "required_by": null, "required": 12, "prereq": null, "selected": 0, "img":"purifyweapon", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
+  "4d": {"abil_name": "Purify Weapon", "required_by": ["5d"], "required": 12, "prereq": null, "selected": 0, "img":"purifyweapon", "multi": false, "passive": "passive", "ranks": 1, "AP": 2, "abil": {
       "1": "While you Stand Against the Tide, weapons you equip gain pure good, dealing 1d6 damage vs. non good targets."
     }
   },
@@ -108,7 +108,7 @@
     }
   },
   "5b": null,
-  "5c": {"abil_name": "Ward Against Evil", "required_by": null, "required": 16, "prereq": null, "selected": 0, "img":"wardagainstevil", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
+  "5c": {"abil_name": "Ward Against Evil", "required_by": ["5d"], "required": 16, "prereq": null, "selected": 0, "img":"wardagainstevil", "multi": false, "passive": "passive", "ranks": 3, "AP": 1, "abil": {
       "1": "When you are hit or miss by evil attackers, you have 20% chance to deal 3d6.", 
       "2": "When you are hit or miss by evil attackers, you have 20% chance to deal 6d6.",
       "3": "When you are hit or miss by evil attackers, you have 20% chance to deal 10d6."
