@@ -7,7 +7,7 @@ Each destiny gets its own file, which will be used in the grunt-tpl task to crea
 
 object structure is currently:
 
-	  "1a": {"abil_name": "","required": "0", "prereq": "null", "selected": 0, "img":"", "multi": false, "passive":"true", "ranks": "3", "AP": "1", "abil": {
+	  "1a": {"abil_name": "","required_by": null, "required": "0", "prereq": "null", "selected": 0, "img":"", "multi": false, "passive":"true", "ranks": "3", "AP": "1", "abil": {
 	      "1": "", 
 	      "2": "", 
 	      "3": ""
